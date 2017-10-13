@@ -143,7 +143,7 @@ if __name__ == "__main__":
     templateWeightMap = sortedMatSumList[1]
 #    print templateWeightMap
     print len(templateWeightMap)
-
+    
     print templateWeightMap
     db = DButil()
     db.conToDB()

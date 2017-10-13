@@ -1,6 +1,6 @@
 # export LD_LIBRARY_PATH=/usr/lib/oracle/11.2/client64/lib:$LD_LIBRARY_PATH
 import cx_Oracle
-CON_STRING = 'sys/cdcora@//etc1m-c2-scan.us.oracle.com:1521/keydb0906.us.oracle.com'
+CON_STRING = 'logtde/logtde@//etc1m-c2-scan.us.oracle.com:1521/keydb0906.us.oracle.com'
 
 class DButil(object):
     def __init__(self, conString = CON_STRING):
@@ -9,7 +9,8 @@ class DButil(object):
     def conToDB(self, conString = CON_STRING):
         self.conString = conString
         self.conn = cx_Oracle.connect(self.conString,
-                                 mode=cx_Oracle.SYSDBA)
+#                                 mode=cx_Oracle.SYSDBA
+                                      )
         self.myCursor=self.conn.cursor()
         return self.myCursor
 
