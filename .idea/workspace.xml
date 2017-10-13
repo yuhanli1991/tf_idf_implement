@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b65d5c4c-1c59-461c-9334-a4a8d903d9d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/recurList.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TFIDFImple.iml" afterPath="$PROJECT_DIR$/.idea/TFIDFImple.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DButil.py" afterPath="$PROJECT_DIR$/DButil.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IOUtil.py" afterPath="$PROJECT_DIR$/IOUtil.py" />
-    </list>
+    <list default="true" id="b65d5c4c-1c59-461c-9334-a4a8d903d9d2" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +54,7 @@
           <file leaf-file-name="recurList.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/recurList.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
+                <state relative-caret-position="945">
                   <caret line="63" column="39" lean-forward="false" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
                   <folding />
                 </state>
@@ -724,7 +717,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/recurList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="945">
           <caret line="63" column="39" lean-forward="false" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
           <folding />
         </state>
