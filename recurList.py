@@ -256,6 +256,34 @@ class recurList(object):
                 f.write("\n===========================\n")
             f.close()
 
+    def shrinkResult (self):
+        result = self.readByLine(OUTPUT_FILE)
+        listCol = []
+        for i in range(0, len(result), 2):
+            listCol.append(result[i][1:].split(']')[0].split(' '))
+        i = 0
+        while i < len(listCol):
+            j = i + 1
+            while j < len(listCol) and j > i:
+                if (self.isBelongTo(listCol[i], listCol[j])):
+                    del listCol[i]
+                    i -= 1
+                elif (self.isBelongTo(listCol[j], listCol[i])):
+                    del listCol[j]
+                else:
+                    j += 1
+            i += 1
+
+
+
+    def isBelongTo (self, lista, listb):
+        if (len(lista) > len(listb)):
+            return False
+        else:
+            for i in range(0, len(listb) - len(lista) + 1):
+                if (self.compareList(lista, listb[i : i + len(lista)])):
+                    return True
+            return False
 
 if __name__ == "__main__":
     recurlist = recurList()
@@ -271,6 +299,8 @@ if __name__ == "__main__":
     print (result.values())
     print (len(result))
     recurlist.writeResult(result, OUTPUT_FILE)
+
+
 
 
     elapsed = (time.clock() - start)
