@@ -1,0 +1,2582 @@
+(dp0
+S'The instance eviction map is \\S+ \\S+\n'
+p1
+I719
+sS'WARNING: giving up on client id \\S+ \\[.*\\] which has not reconnected for \\S+ seconds \\(.*\\) \\[.*\\]\n'
+p2
+I780
+sS'path:AFD:OCRDG2\n'
+p3
+I838
+sS"ERROR: \\S+ \\S+ \\S+ \\S+ \\S+  SITE siteq  DISK '.*' \\S+ \\S+\n"
+p4
+I72
+sS'NOTE: \\S+ skipping lock domain \\(.*\\) validation because diskgroup being dismounted\n'
+p5
+I238
+sS'AFDLIB \\S+ Failed @ \\S+ \\S+ \\S+ err=-5 \\S+ \\S+ \\S+\n'
+p6
+I0
+sS'Communication channels reestablished\n'
+p7
+I45
+sS'DIA0 started with \\S+ \\S+ \\S+\n'
+p8
+I55
+sS'WARNING: \\S+ failed to obtain \\S+ quorum of supporting disks in group \\S+ site \\S+\n'
+p9
+I746
+sS'SUCCESS: \\S+ enlarged for group \\S+ \\(.*\\)\n'
+p10
+I652
+sS'MEMORY_TARGET defaulting to \\S+\n'
+p11
+I200
+sS"ERROR: alter diskgroup \\S+ \\S+ disk '.*' force\n"
+p12
+I87
+sS"SQL> alter diskgroup data \\S+ site siteb disk '.*'\n"
+p13
+I620
+sS'NOTE: .*\n'
+p14
+I208
+sS'NOTE: Diskgroups listed in \\S+ are\n'
+p15
+I265
+sS'NOTE: group \\S+ \\S+ updated.\n'
+p16
+I361
+sS'NOTE: cleaned up \\S+ client \\S+ connection state \\(.*\\)\n'
+p17
+I321
+sS'Scan count \\S+\n'
+p18
+I680
+sS'SUCCESS: diskgroup \\S+ was \\S+\n'
+p19
+I669
+sS"SQL> \\S+ \\S+ \\S+ \\S+ \\S+  SITE \\S+  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p20
+I591
+sS'Starting background process \\S+\n'
+p21
+I690
+sS"SUCCESS: alter diskgroup \\S+ \\S+ \\S+ '.*'\n"
+p22
+I657
+sS'Available system pagesizes:\n'
+p23
+I27
+sS'ORA-15326: specified input \\S+ is \\S+ not an \\S+ file\n'
+p24
+I493
+sS"ERROR: \\S+ \\S+ tst \\S+ \\S+  DISK '.*' \\S+ \\S+\n"
+p25
+I77
+sS'ASM Health Checker found \\S+ new failures\n'
+p26
+I11
+sS'License high water mark = \\S+\n'
+p27
+I193
+sS'ORA-00445: background process ".*" did not start after \\S+ seconds\n'
+p28
+I444
+sS"SQL> alter diskgroup vfdg online quorum disk '.*'\n"
+p29
+I628
+sS'NOTE: diskgroup resource \\S+ is \\S+\n'
+p30
+I349
+sS'PMON started with \\S+ \\S+ \\S+\n'
+p31
+I537
+sS'Remote instance kill map \\(.*\\) \\S+ \\S+ \\S+\n'
+p32
+I569
+sS'NOTE: cleaning stale remote ownerid \\S+ for client \\S+ \\(.*\\)\n'
+p33
+I323
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+ \\S+  SITE \\S+  QUORUM  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p34
+I636
+sS'Oracle Database \\S+ Enterprise Edition Release \\S+ - 64bit \\S+\n'
+p35
+I530
+sS'NOTE: messaging \\S+ to quiesce pins Unix process pid: \\S+ image: \\S+\n'
+p36
+I387
+sS'WARNING: Started Drop Disk Timeout for Disk \\S+ \\(.*\\) in group \\S+ with \\S+ value \\S+\n'
+p37
+I763
+sS"ASMCMD ./ALTER \\S+ \\S+ \\S+ \\S+ '.*' = '.*'\n"
+p38
+I15
+sS'Evicting instance \\S+ from cluster\n'
+p39
+I118
+sS'CKPT started with \\S+ \\S+ \\S+\n'
+p40
+I33
+sS'ORA-59709: No site identified for the disk\n'
+p41
+I519
+sS'LMHB started with \\S+ \\S+ \\S+\n'
+p42
+I184
+sS"ERROR: \\S+ \\S+ csdg \\S+ \\S+  SITE sitea  FAILGROUP \\S+  DISK '.*' \\S+ ted1  SIZE \\S+\n"
+p43
+I76
+sS'NOTE: Submit AFDLIB:AFD_KEYS\\(.*\\)\n'
+p44
+I283
+sS'ORA-15033: disk \'.*\' belongs to diskgroup ".*"\n'
+p45
+I466
+sS'NOTE: initiating client \\[.*\\] discovery for group \\S+ \\(.*\\)\n'
+p46
+I381
+sS"SUCCESS: alter diskgroup data \\S+ site sitea disk '.*' force\n"
+p47
+I662
+sS"ORA-59711: The site identified by \\S+ '.*' does not exist.\n"
+p48
+I521
+sS'TED6 \\(.*\\)\n'
+p49
+I707
+sS'SUCCESS: alter diskgroup \\S+ online quorum disk \\S+\n'
+p50
+I661
+sS'Oracle instance running with \\S+ Oracle Direct \\S+ \\S+ Library Version \\S+\n'
+p51
+I531
+sS"SITE sitea  FAILGROUP fg3  DISK '.*' \\S+ \\S+\n"
+p52
+I582
+sS'TMP2\n'
+p53
+I712
+sS'NOTE: Flex client \\S+ \\S+ osid \\S+ mbr \\S+ asmb \\S+ \\(.*\\)\n'
+p54
+I269
+sS'ORA-17502: \\S+ Failed to create file \\S+\n'
+p55
+I496
+sS'Dumping current patch information\n'
+p56
+I66
+sS'NOTE: reset timers for disk: \\S+\n'
+p57
+I407
+sS'NOTE: \\S+ released recovery enqueue for thread \\S+ group \\S+ \\(.*\\)\n'
+p58
+I235
+sS'GMON dumping for group - Done\n'
+p59
+I139
+sS"SQL> \\S+ \\S+ \\S+ \\S+  QUORUM \\S+ '.*' \\S+ \\S+\n"
+p60
+I602
+sS'Version \\S+\n'
+p61
+I740
+sS'WARNING: using default parameter settings without any parameter file\n'
+p62
+I788
+sS'NOTE: erasing header \\(.*\\) on grp \\S+ disk \\S+\n'
+p63
+I351
+sS'NOTE: \\S+ process exiting, either shutdown is in progress or foreground connected to \\S+ was killed.\n'
+p64
+I232
+sS'Dump of system resources acquired for \\S+ \\S+ \\S+ \\(.*\\)\n'
+p65
+I65
+sS'WARNING: dirty detached from lock domain \\S+\n'
+p66
+I771
+sS'WARNING: \\S+ failed to write \\S+ quorum of target disks in group \\S+ site \\S+ \\(.*\\)\n'
+p67
+I747
+sS'ORA-15080: synchronous I/O operation failed to write block \\S+ of disk \\S+ in disk group \\S+\n'
+p68
+I478
+sS'NOTE: voting file allocation \\(.*\\) on grp \\S+ disk \\S+\n'
+p69
+I424
+sS'NOTE: disk validation pending for \\S+ \\S+ in group \\S+ \\(.*\\)\n'
+p70
+I347
+sS'ORA-29709 \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\]\n'
+p71
+I505
+sS'Following system state dump requests \\(.*\\) will \\S+ processed:\n'
+p72
+I129
+sS'detach from dom \\S+ sending detach message to inst \\S+\n'
+p73
+I810
+sS"ERROR: \\S+ \\S+ \\S+ \\S+ \\S+  SITE \\S+  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p74
+I71
+sS"ERROR: alter diskgroup vfdg \\S+ site siteb disk '.*' name ted04 force\n"
+p75
+I100
+sS'Submitted all \\S+ remote-cache requests\n'
+p76
+I693
+sS'NOTE: cleaned up \\S+ client \\S+ connection state\n'
+p77
+I322
+sS"ALTER \\S+ \\S+ listener_networks='.*','.*',.* \\(.*\\).'.*'.* \\(.*\\)..* SCOPE=MEMORY SID='.*';\n"
+p78
+I5
+sS'kjbdomdet send to inst \\S+\n'
+p79
+I823
+sS'LMD0 \\(.*\\): terminating the instance due to error \\S+\n'
+p80
+I181
+sS'WARNING: \\S+ \\S+ addresses should not \\S+ used on \\S+ engineered systems.\n'
+p81
+I743
+sS'an eviction is expected due environment issues\n'
+p82
+I802
+sS'nowait\n'
+p83
+I829
+sS'WARNING: grp \\S+ disk \\S+ still has contents \\(.*\\)\n'
+p84
+I783
+sS'LMD0 \\(.*\\) has detected no messaging activity from instance \\S+\n'
+p85
+I180
+sS'Archiving is disabled\n'
+p86
+I23
+sS'Using parameter settings in client-side pfile \\S+ on machine \\S+\n'
+p87
+I731
+sS"SUCCESS: \\S+ \\S+ test \\S+ \\S+  DISK '.*' \\S+ \\S+\n"
+p88
+I650
+sS'NOTE: attached to recovery domain \\S+\n'
+p89
+I301
+sS'Machine:\tx86_64\n'
+p90
+I205
+sS'WARNING: offline disk number \\S+ has references \\(.*\\)\n'
+p91
+I785
+sS"SQL> alter diskgroup \\S+ \\S+ site \\S+ disk '.*' force\n"
+p92
+I610
+sS'ns \\S+ err code: \\S+\n'
+p93
+I830
+sS'NOTE: membership refresh pending for group \\S+ \\(.*\\)\n'
+p94
+I385
+sS'Unexpected return code \\(.*\\) from the Cluster Synchronization Service \\(.*\\)\n'
+p95
+I727
+sS'DBDG\n'
+p96
+I54
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+  SITE \\S+  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p97
+I647
+sS'TMPDG\n'
+p98
+I713
+sS'ORA-59716: dropping all disks of the quorum site is not allowed\n'
+p99
+I522
+sS'opiodr aborting process unknown ospid \\(.*\\) as \\S+ result of \\S+\n'
+p100
+I832
+sS'NOTE: volume resource \\S+ is \\S+\n'
+p101
+I423
+sS'SUCCESS: PST-initiated drop disk in group .*\n'
+p102
+I656
+sS'SQL> alter diskgroup \\S+ online disk .*\n'
+p103
+I612
+sS'NOTE: Advancing \\S+ compatibility to \\S+ for grp \\S+\n'
+p104
+I252
+sS'domain \\S+ valid = \\S+ according to instance \\S+\n'
+p105
+I813
+sS'Process \\S+\n'
+p106
+I549
+sS'ORA-15041: diskgroup ".*" space exhausted\n'
+p107
+I468
+sS'NOTE: cache registered group \\S+ \\S+\n'
+p108
+I317
+sS'NOTE: detected orphaned client id \\S+\n'
+p109
+I343
+sS"NOTE: get diskgroups to mount for database '.*'\n"
+p110
+I356
+sS'ORA-00600: internal error code, arguments: \\[.*\\], \\[.*\\], \\[.*\\], \\[.*\\], \\[.*\\], \\[.*\\], \\[.*\\], \\[.*\\], \\[.*\\], \\[.*\\], \\[.*\\], \\[.*\\]\n'
+p111
+I448
+sS'NOTE: registered owner id \\S+ for \\S+ \\(.*\\)\n'
+p112
+I394
+sS"SQL> \\S+ \\S+ \\S+ \\S+ \\S+  SITE siteq  DISK '.*' \\S+ \\S+\n"
+p113
+I596
+sS'NOTE: group \\S+ \\S+ \\S+ location: disks \\S+ \\S+ \\S+ \\S+ \\S+ \\S+ \\S+\n'
+p114
+I358
+sS'WARNING: Write Failed. \\S+ \\S+ \\S+ \\S+ \\S+\n'
+p115
+I765
+sS'NOTE: voting file allocation on grp \\S+ disk \\S+\n'
+p116
+I425
+sS"SQL> \\S+ \\S+ \\S+ \\S+ \\S+  SITE siteq  QUORUM  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p117
+I598
+sS'path:AFD:SU1\n'
+p118
+I840
+sS'ORA-15344: client \\S+ not found\n'
+p119
+I494
+sS'SUCCESS: alter diskgroup data dismount\n'
+p120
+I664
+sS'Remote instance kill is issued with system inc \\S+\n'
+p121
+I568
+sS'ASMCMD ./ALTER \\S+ \\S+ \\S+  \n'
+p122
+I16
+sS'NOTE: process \\S+ \\(.*\\) initiating offline of disk \\S+ \\(.*\\) with mask \\S+ in group \\S+ \\(.*\\) \\S+ client assisting\n'
+p123
+I390
+sS'path:AFD:DATA3\n'
+p124
+I837
+sS'ORA-15001: diskgroup ".*" does not exist or is not mounted\n'
+p125
+I456
+sS'VKTM started with \\S+ \\S+ \\S+ at elevated \\(.*\\) priority\n'
+p126
+I739
+sS"SITE siteb  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p127
+I586
+sS'Nested reconfiguration detected.\n'
+p128
+I433
+sS'NOTE: \\S+ opened thread \\S+ \\(.*\\) at fcn \\S+ \\S+ \\S+ lock \\S+ \\S+ \\S+ \\S+ \\S+ \\S+\n'
+p129
+I229
+sS'LMON received an instance eviction notification from instance \\S+\n'
+p130
+I187
+sS'WARNING: block repair initiating disk offline\n'
+p131
+I766
+sS'NOTE: disk \\S+ had \\S+ error\n'
+p132
+I346
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+ \\S+  DISK '.*' \\S+ \\S+\n"
+p133
+I634
+sS'NOTE: \\S+ has subscribed\n'
+p134
+I225
+sS'RBAL \\(.*\\): terminating the instance due to \\S+ error \\S+\n'
+p135
+I552
+sS'NOTE: Successful voting file relocation on diskgroup \\S+\n'
+p136
+I284
+sS'NOTE: failed resync of disk group \\S+ disks\n'
+p137
+I353
+sS'RECOMMENDATION:\n'
+p138
+I556
+sS'LCK1 started with \\S+ \\S+ \\S+\n'
+p139
+I174
+sS'NOTE: \\S+ \\S+ \\S+ \\S+ for \\S+ \\S+ \\(.*\\)\n'
+p140
+I210
+sS'SUCCESS: drop diskgroup \\S+ including contents\n'
+p141
+I670
+sS'NOTE: \\S+ process exiting due to \\S+ instance shutdown \\(.*\\)\n'
+p142
+I230
+sS'My inst \\S+ .*\n'
+p143
+I207
+sS'GCR0\\[.*\\]: \\S+ \\S+ process is not making progress for \\S+ secs\n'
+p144
+I130
+sS'NOTE: cache ending mount \\(.*\\) of group \\S+ \\S+ \\S+\n'
+p145
+I310
+sS'NOTE: unable to offline disks after getting write error for diskgroup \\S+\n'
+p146
+I418
+sS'TED5 \\(.*\\)\n'
+p147
+I706
+sS'NOTE: client \\S+ id \\S+ has reconnected to \\S+ inst \\S+ \\(.*\\), or has been fenced\n'
+p148
+I327
+sS"IMR0 \\(.*\\) waits for event '.*' for \\S+ secs.\n"
+p149
+I150
+sS'NOTE: unable to write any mirror side for diskgroup \\S+\n'
+p150
+I419
+sS'TEST_0001 \\(.*\\)\n'
+p151
+I709
+sS'ERROR: no read quorum in group: required \\S+ found \\S+ disks\n'
+p152
+I107
+sS'Release:\t2.6.39-400.246.1.el6uek.x86_64\n'
+p153
+I565
+sS'Cluster Communication is configured to use IPs from: GPnP\n'
+p154
+I43
+sS'path:AFD:DATA2\n'
+p155
+I836
+sS'NOTE: group \\S+ initial \\S+ location: disks \\S+ \\S+\n'
+p156
+I364
+sS'NOTE: \\S+ skipping disk \\S+ \\(.*\\)\n'
+p157
+I237
+sS'NOTE: cache deleting context for group \\S+ \\S+\n'
+p158
+I307
+sS'ORA-15277: disk \\S+ is \\S+ quorum disk\n'
+p159
+I489
+sS'NOTE: \\S+ about to begin recovery lock claims for diskgroup \\S+ \\(.*\\)\n'
+p160
+I213
+sS'NOTE: cache dismounted group \\S+ \\(.*\\)\n'
+p161
+I308
+sS"ERROR: alter diskgroup vfdg online disk '.*'\n"
+p162
+I102
+sS"SQL> alter diskgroup vfdg \\S+ disk '.*' name \\S+ force\n"
+p163
+I624
+sS'LICENSE_MAX_SESSION = \\S+\n'
+p164
+I177
+sS'ORA-15066: offlining disk ".*" in group ".*" may result in \\S+ data loss\n'
+p165
+I473
+sS'NOTE: 03/23/16 \\S+ \\S+ copy \\S+ relocating from \\S+ to \\S+ at \\S+ \\S+\n'
+p166
+I248
+sS'NOTE: \\S+ did \\S+ \\S+ recovery for group \\S+ \\(.*\\)\n'
+p167
+I219
+sS'WARNING: failed to write mirror side \\S+ of virtual extent \\S+ logical extent \\S+ of file \\S+ in group \\S+ on disk \\S+ allocation unit \\S+\n'
+p168
+I778
+sS'event                    = ".*"\n'
+p169
+I814
+sS'Load Monitor used for high load check\n'
+p170
+I197
+sS'Diskgroup with \\S+\n'
+p171
+I64
+sS'TED3 \\(.*\\)\n'
+p172
+I704
+sS"ERROR: \\S+ \\S+ \\S+ \\S+  SITE siteb  DISK '.*' \\S+ \\S+\n"
+p173
+I75
+sS'SQL> drop diskgroup \\S+ including contents\n'
+p174
+I631
+sS"SITE siteb  FAILGROUP \\S+  DISK '.*' \\S+ \\S+  SIZE \\S+\n"
+p175
+I585
+sS'SUCCESS: alter diskgroup \\S+ online disk \\S+\n'
+p176
+I660
+sS'ORA-15063: \\S+ discovered an insufficient number of disks for diskgroup ".*"\n'
+p177
+I472
+sS'slave \\S+ \\(.*\\)\n'
+p178
+I852
+sS'subsys:\\S+ \\S+ \\S+ \\S+ \\S+\n'
+p179
+I854
+sS'subsys:System \\S+ \\S+ \\S+ osderr2:0x0\n'
+p180
+I856
+sS'GMON dismounting group \\S+ at \\S+ for pid \\S+ osid \\S+\n'
+p181
+I137
+sS'asm agent .//. \\{.*\\} .//. \\S+\n'
+p182
+I803
+sS'Version:\t#1 \\S+ \\S+ \\S+ \\S+ \\S+ \\S+ \\S+\n'
+p183
+I741
+sS'GEN0 started with \\S+ \\S+ \\S+\n'
+p184
+I133
+sS'WARNING: Disk Group \\S+ containing \\S+ \\S+ is not mounted\n'
+p185
+I754
+sS'SHARED \\S+ \\S+ \\(.*\\) into memory: \\S+\n'
+p186
+I572
+sS'TNS-12535: TNS:operation timed out\n'
+p187
+I716
+sS'NOTE: initiating dirty detach from lock domain \\S+\n'
+p188
+I382
+sS'NOTE: messaging \\S+ to quiesce pins Unix process pid: \\S+ image: \\S+ \\(.*\\)\n'
+p189
+I386
+sS'NOTE: client \\S+ is exiting\n'
+p190
+I328
+sS'ORA-15186: \\S+ error function = \\[.*\\],  error = .*\n'
+p191
+I485
+sS'NOTE: cache closing disk \\S+ of grp \\S+ .*\n'
+p192
+I304
+sS'KSIPC \\S+ \\S+\n'
+p193
+I165
+sS'Node \\S+\n'
+p194
+I440
+sS'ERROR: alter diskgroup sudg rebalance\n'
+p195
+I98
+sS'WARNING: PST-initiated drop of \\S+ disk\\(.*\\) in group .*\n'
+p196
+I760
+sS'Shutting down instance \\(.*\\) \\(.*\\)\n'
+p197
+I687
+sS'NOTE: aborting instance recovery of domain \\S+ due to diskgroup dismount\n'
+p198
+I294
+sS'ORA-29702 \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\]\n'
+p199
+I503
+sS'path:AFD:SU5\n'
+p200
+I842
+sS'NOTE: cache opening disk \\S+ of grp \\S+ \\S+ \\S+\n'
+p201
+I315
+sS'Read failed for disk \\S+ errno \\S+\n'
+p202
+I557
+sS'NOTE: Active use of \\S+ in group \\S+\n'
+p203
+I249
+sS'NOTE: client \\S+ fence duration: \\S+ seconds\n'
+p204
+I326
+sS'ERROR: alter diskgroup data online disk .*\n'
+p205
+I96
+sS'TEST\n'
+p206
+I710
+sS'Received dirty detach msg from inst \\S+ for dom \\S+\n'
+p207
+I561
+sS'SQL> alter diskgroup sudg rebalance\n'
+p208
+I623
+sS'NOTE: Diskgroup used for \\S+ \\S+\n'
+p209
+I264
+sS'DATT\n'
+p210
+I52
+sS'ASMCA ./\n'
+p211
+I14
+sS'NOTE: Found \\S+ for disk \\S+\n'
+p212
+I271
+sS'Network Resource Management enabled for Process \\S+ \\(.*\\) for Exadata I/O\n'
+p213
+I434
+sS'ORA-59710: site information mismatch between disk group \\S+ and disk /dev/asmdisk/3par108\n'
+p214
+I520
+sS'NOTE: Volume support  enabled\n'
+p215
+I291
+sS'NOTE: checking \\S+ grp = \\S+\n'
+p216
+I320
+sS'SZAUD: Cluster class retrieved from \\S+ is \\[.*\\]. thus skipping setting audit syslog level\n'
+p217
+I678
+sS'WARNING: failed to update diskgroup resource \\S+ \\(.*\\)\n'
+p218
+I777
+sS'NOTE: client \\[.*\\] completed disk validation \\(.*\\)\n'
+p219
+I332
+sS'ORA-29746: Cluster Synchronization Service is being shut down.\n'
+p220
+I510
+sS'NUMA system with \\S+ nodes detected\n'
+p221
+I432
+sS'GEN1 started with \\S+ \\S+ \\S+\n'
+p222
+I134
+sS'NOTE: Proactively cleaning up \\S+ client \\S+ with orphan ownerid \\S+ \\S+ elapsed\n'
+p223
+I278
+sS'WARNING: client \\[.*\\] not responsive for 217s; state=0x1. killing pid \\S+\n'
+p224
+I768
+sS'REBALANCE \\S+\n'
+p225
+I555
+sS'NOTE: updated gpnp profile \\S+ \\S+ to \\S+\n'
+p226
+I420
+sS'GCR0\\[.*\\]: \\S+ process succesfully killed\n'
+p227
+I132
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+  SITE sitea  FAILGROUP \\S+  DISK '.*' \\S+ \\S+  SIZE \\S+\n"
+p228
+I649
+sS'Dwn-cvts replayed, VALBLKs dubious\n'
+p229
+I68
+sS'LMON \\(.*\\): terminating the instance\n'
+p230
+I186
+sS'NOTE: released resources held for client id \\S+ \\(.*\\)\n'
+p231
+I398
+sS"SQL> \\S+ \\S+ \\S+ \\S+ \\S+  SITE sitea  FAILGROUP \\S+  DISK '.*' \\S+ \\S+  SIZE \\S+\n"
+p232
+I593
+sS"SITE sitea  FAILGROUP fg1  DISK '.*' \\S+ disk1  SIZE \\S+\n"
+p233
+I579
+sS'dirty detach - domain \\S+ invalid = \\S+\n'
+p234
+I811
+sS'GMON updating for reconfiguration, group \\S+ at \\S+ for pid \\S+ osid \\S+\n'
+p235
+I143
+sS"SITE siteq  QUORUM  FAILGROUP ted7  DISK '.*' \\S+ ted7  SIZE \\S+\n"
+p236
+I588
+sS'IP: \\S+ Subnet: \\S+\n'
+p237
+I153
+sS'System name:\tLinux\n'
+p238
+I698
+sS'WARNING: group \\S+ file \\S+ vxn \\S+ block \\S+ write I/O failed\n'
+p239
+I781
+sS"ORA-15028: \\S+ file '.*' not dropped; currently being accessed\n"
+p240
+I462
+sS'ASMCMD ./alter diskgroup /.ASMCMD./ ".*" drop file \'.*\'\n'
+p241
+I18
+sS'NOTE: client \\S+ .*\n'
+p242
+I325
+sS'Supported system pagesize\\(.*\\):\n'
+p243
+I695
+sS"SITE \\S+  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p244
+I574
+sS'TED7 \\(.*\\)\n'
+p245
+I708
+sS'NOTE: cache dismounting \\(.*\\) group \\S+ \\(.*\\)\n'
+p246
+I309
+sS"ERROR: alter diskgroup \\S+ \\S+ site \\S+ disk '.*' force\n"
+p247
+I88
+sS'NOTE: umbilicus traces dumped to \\S+\n'
+p248
+I417
+sS'NOTE: successfully wrote at least one mirror side for diskgroup \\S+\n'
+p249
+I415
+sS'NOTE: closing \\S+ for group: \\S+\n'
+p250
+I336
+sS'WARNING: \\S+ found an alien heartbeat on disk \\S+ \\(.*\\)\n'
+p251
+I748
+sS'NOTE: instance recovery of group \\S+ will recover \\S+ \\S+ \\S+ \\S+ \\S+\n'
+p252
+I384
+sS'NOTE: deferred map free for map id \\S+\n'
+p253
+I341
+sS'MMAN started with \\S+ \\S+ \\S+\n'
+p254
+I202
+sS'AFDLIB \\S+ Failed @ \\S+ err=-5 \\S+ \\S+ \\S+\n'
+p255
+I1
+sS'VKTM reset to run at normal priority\n'
+p256
+I736
+sS'WARNING: failed to read mirror side \\S+ of virtual extent \\S+ logical extent \\S+ of file \\S+ in group \\[.*\\] from disk \\S+  allocation unit \\S+ reason error; if possible, will try another mirror side\n'
+p257
+I776
+sS'Global Resource Directory frozen\n'
+p258
+I145
+sS'DSKM started with \\S+ \\S+ \\S+\n'
+p259
+I58
+sS'Abort recovery for domain \\S+ flags \\S+\n'
+p260
+I20
+sS'ORA-15186: \\S+ error function = \\[.*\\],  error = \\[.*\\],  mesg = \\[.*\\]\n'
+p261
+I486
+sS'OCRDG\n'
+p262
+I443
+sS"ERROR: alter diskgroup data \\S+ site sitea disk '.*'\n"
+p263
+I93
+sS'path:Unknown disk\n'
+p264
+I845
+sS'Instance terminated by \\S+ pid = \\S+\n'
+p265
+I164
+sS"ORA-15029: disk '.*' is already mounted by this instance\n"
+p266
+I463
+sS'DBW0 started with \\S+ \\S+ \\S+\n'
+p267
+I53
+sS"SQL> \\S+ \\S+ \\S+ \\S+ \\S+  SITE \\S+  QUORUM  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p268
+I592
+sS'WARNING: \\S+ disk \\S+ not found \\(.*\\)\n'
+p269
+I744
+sS'ORA-15040: diskgroup is incomplete\n'
+p270
+I467
+sS'NOTE: relocating client \\S+ \\(.*\\) to local instance; \\S+ Instance \\S+ up message from node \\S+\n'
+p271
+I400
+sS'Using \\S+ parameter default value as \\S+\n'
+p272
+I729
+sS'GMON started with \\S+ \\S+ \\S+\n'
+p273
+I141
+sS'ORA-15186: \\S+ error function = \\[.*\\],  err\n'
+p274
+I487
+sS'ASM instance\n'
+p275
+I12
+sS'CRS_CD_02_NSHC01CELADM09 \\(.*\\)\n'
+p276
+I38
+sS'Fix write in gcs resources\n'
+p277
+I128
+sS'NOTE: Deferred communication with \\S+ instance\n'
+p278
+I260
+sS"SITE \\S+  QUORUM  FAILGROUP \\S+  DISK '.*' \\S+ \\S+  SIZE \\S+\n"
+p279
+I575
+sS'Post \\S+ to start 1st pass \\S+\n'
+p280
+I547
+sS'NOTE: checking \\S+ for grp \\S+ done.\n'
+p281
+I319
+sS"ORA-59001: Disk '.*' must \\S+ online before disk '.*'.\n"
+p282
+I515
+sS'LMS0 started with \\S+ \\S+ \\S+ at elevated \\(.*\\) priority\n'
+p283
+I191
+sS"SQL> \\S+ \\S+ \\S+ \\S+ \\S+  DISK '.*' \\S+ \\S+\n"
+p284
+I590
+sS'ERROR: disk \\S+ \\(.*\\) in group \\S+ \\(.*\\) cannot \\S+ offlined because all disks \\[.*\\] with mirrored data would \\S+ offline.\n'
+p285
+I103
+sS"SQL> create diskgroup tmpdg external redundancy disk '.*' attribute '.*'='.*','.*'='.*','.*'='.*'\n"
+p286
+I630
+sS'Loopback ip: \\S+\n'
+p287
+I198
+sS'RBAL \\(.*\\): terminating the instance due to error \\S+\n'
+p288
+I553
+sS'DIAG started with \\S+ \\S+ \\S+\n'
+p289
+I56
+sS'SUCCESS: alter diskgroup sudg online disk \\S+\n'
+p290
+I665
+sS'XDMG started with \\S+ \\S+ \\S+\n'
+p291
+I793
+sS'Performing system state dump.\n'
+p292
+I541
+sS"SITE sitea  FAILGROUP \\S+  DISK '.*' \\S+ \\S+  SIZE \\S+\n"
+p293
+I577
+sS'afdb_getdiscstr: \\S+\n'
+p294
+I795
+sS'DATA\n'
+p295
+I51
+sS'KSXP: \\S+ \\S+ \\S+\n'
+p296
+I169
+sS'NOTE:Waiting for all pending writes to complete before de-registering: grpnum \\S+\n'
+p297
+I431
+sS'ASMB started with \\S+ \\S+ \\S+\n'
+p298
+I13
+sS'asm_power_limit          = \\S+\n'
+p299
+I807
+sS'WARNING: inbound connection timed out \\(.*\\)\n'
+p300
+I784
+sS'NOTE: cache closing disk \\S+ of grp \\S+ \\(.*\\) \\S+\n'
+p301
+I305
+sS"ORA-15031: disk specification '.*' matches no disks\n"
+p302
+I464
+sS'NOTE: Creating voting files in diskgroup: \\S+\n'
+p303
+I259
+sS'instance_number obtained from \\S+ = \\S+ checking for the existence of node \\S+\n'
+p304
+I820
+sS'NOTE: timeout \\(.*\\) expired for orphan ownerid \\S+ for client \\S+ \\S+ elapsed\n'
+p305
+I416
+sS'NOTE: will remove stale ownerid \\S+ for client .* \\(.*\\)\n'
+p306
+I429
+sS'running stat on \\S+\n'
+p307
+I851
+sS'ERROR: No disks with \\S+ found on disk group \\S+\n'
+p308
+I84
+sS'SUCCESS: rebalance completed for group \\S+ \\(.*\\)\n'
+p309
+I674
+sS'Time: \\S+ \\S+\n'
+p310
+I721
+sS'WARNING: \\S+ has insufficient disks to maintain consensus for group \\S+ site \\S+ Minimum required is \\S+ updating \\S+ \\S+ copies from \\S+ total of \\S+\n'
+p311
+I749
+sS"ERROR: \\S+ \\S+ \\S+ \\S+  DISK '.*' \\S+ \\S+\n"
+p312
+I73
+sS'XDWK started with \\S+ \\S+ \\S+\n'
+p313
+I794
+sS'dead instance detected - domain \\S+ invalid = \\S+\n'
+p314
+I809
+sS'NOTE: Deleting voting files in diskgroup \\S+\n'
+p315
+I261
+sS'NOTE: Failed voting file relocation on diskgroup \\S+\n'
+p316
+I268
+sS'NOTE: advancing ckpt for group \\S+ \\(.*\\) \\S+ \\S+ domain inc# \\S+\n'
+p317
+I295
+sS'ORA-03113: \\S+ on communication channel\n'
+p318
+I450
+sS'ERROR: Could not \\S+ \\S+ for grp \\S+ Force dismounting the disk group.\n'
+p319
+I82
+sS'ORACLE_HOME: \\s*\\S+\n'
+p320
+I526
+sS'Please refer to \\S+ in \\S+ note #1274318.1\n'
+p321
+I545
+sS'Error \\S+ unexpected return code \\S+ from the Cluster Synchronization \\S+\n'
+p322
+I113
+sS'ORA-56841: Master Diskmon cannot connect to \\S+ \\S+\n'
+p323
+I513
+sS"ERROR: alter diskgroup vfdg \\S+ site siteb disk '.*' name ted04\n"
+p324
+I101
+sS'path:AFD:SU6\n'
+p325
+I843
+sS'NOTE: client \\[.*\\] declared \\S+ additional pending writes\n'
+p326
+I333
+sS'NOTE: \\S+ closing thread \\S+ of diskgroup \\S+ \\(.*\\) at \\S+ \\S+\n'
+p327
+I217
+sS"ERROR: Unable to get logical block size for spfile '.*'.\n"
+p328
+I86
+sS'TCP/IP \\S+ Protocol Adapter for Linux: Version \\S+ - Production\n'
+p329
+I701
+sS'SUCCESS: extent \\S+ of file \\S+ group \\S+ - all online mirror sides found readable, no repair required\n'
+p330
+I671
+sS'Warning: \\S+ processes are still attach to shmid \\S+\n'
+p331
+I791
+sS'NOTE: initiating resync of disk group \\S+ disks\n'
+p332
+I383
+sS'Shutting down instance: further logons disabled\n'
+p333
+I688
+sS'Instance Critical Process \\(.*\\) died unexpectedly\n'
+p334
+I161
+sS'FGDG\n'
+p335
+I125
+sS"SITE sitea  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p336
+I578
+sS'Remote instance kill map \\(.*\\) \\S+ \\S+\n'
+p337
+I570
+sS'Error \\S+ Cluster Synchronization Service is shutting down\n'
+p338
+I112
+sS'ORA-27061: waiting for async I/Os failed\n'
+p339
+I499
+sS'SQL> alter diskgroup \\S+ online disk \\S+ force\n'
+p340
+I613
+sS'WARNING: Site \\S+ will \\S+ quarantined\n'
+p341
+I762
+sS'ORA-07274: spdcr: access error, access to oracle denied.\n'
+p342
+I453
+sS'Received an instance abort message from instance \\S+\n'
+p343
+I559
+sS'ARBA started with \\S+ \\S+ \\S+\n'
+p344
+I9
+sS'instance \\S+ validates domain \\S+\n'
+p345
+I819
+sS'freeing rdom \\S+\n'
+p346
+I816
+sS'ORACLE_BASE value has been saved for future startups\n'
+p347
+I525
+sS"SQL> \\S+ \\S+ \\S+ \\S+ \\S+  SITE sitea  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p348
+I594
+sS'USER \\(.*\\): terminating the instance due to \\S+ error \\S+\n'
+p349
+I724
+sS'End lmon rcfg omni enqueue reconfig \\S+\n'
+p350
+I111
+sS"ORA-59706: The specified allocation unit size '.*' is less than the minimum required for extended disk groups.\n"
+p351
+I517
+sS'asm agent .//. \\{.*\\} ./\n'
+p352
+I804
+sS'NOTE: initiating \\S+ startup\n'
+p353
+I378
+sS"ALTER \\S+ \\S+ listener_networks='.*','.*',.* \\(.*\\)..* SCOPE=MEMORY SID='.*';\n"
+p354
+I6
+sS'No patches have been applied\n'
+p355
+I439
+sS'Additional information: \\S+\n'
+p356
+I21
+sS'ORA-15075: disk \\S+ is not visible on instance number \\S+\n'
+p357
+I475
+sS'Restarting \\S+ background process \\S+\n'
+p358
+I571
+sS'NOTE: The rdbms compatibility of group \\S+ is \\S+\n'
+p359
+I287
+sS'ATTRIBUTE .*\n'
+p360
+I19
+sS'ORA-15013: diskgroup ".*" is already mounted\n'
+p361
+I457
+sS'ORA-15081: failed to submit an I/O operation to \\S+ disk\n'
+p362
+I479
+sS'NOTE: Flex client id \\S+ \\[.*\\] attempting to \\S+\n'
+p363
+I270
+sS'ORACLE_BASE from environment = \\S+\n'
+p364
+I524
+sS"ERROR: alter diskgroup data \\S+ site siteb disk '.*'\n"
+p365
+I95
+sS'ORA-15291: \\S+ could not \\S+ disk ".*" to disk group ".*"\n'
+p366
+I491
+sS'Master broadcasted resource hash value bitmaps\n'
+p367
+I206
+sS'NOTE: registered owner id \\S+ for \\S+\n'
+p368
+I395
+sS'Begin lmon rcfg omni enqueue reconfig \\S+\n'
+p369
+I29
+sS'ERROR: updating header of disk \\S+ with voting file information\n'
+p370
+I109
+sS'NOTE: crash recovery of group \\S+ will recover \\S+ \\S+ \\S+ \\S+ \\S+\n'
+p371
+I339
+sS'Autodiscovered Loopback ips: \\S+\n'
+p372
+I25
+sS'SUCCESS: alter diskgroup \\S+ online disk \\S+ force\n'
+p373
+I659
+sS'NOTE: group \\S+ \\S+ \\S+ location: disks \\S+ \\S+ \\S+\n'
+p374
+I359
+sS'ORA-29710 \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\]\n'
+p375
+I507
+sS'ASM \\S+ ./\n'
+p376
+I10
+sS'All grantable enqueues granted\n'
+p377
+I22
+sS'NOTE: \\S+ doing \\S+ dismount of group \\S+ \\(.*\\) thread \\S+\n'
+p378
+I221
+sS'NOTE: cache mounting \\(.*\\) \\S+ redundancy group \\S+ \\(.*\\)\n'
+p379
+I313
+sS'path:AFD:TMP11\n'
+p380
+I844
+sS'NOTE: Refresh completed on diskgroup \\S+ \\S+ \\S+ \\S+ .*\n'
+p381
+I279
+sS'NOTE: allocating \\S+ \\(.*\\) on grp \\S+ disk \\S+\n'
+p382
+I296
+sS"ERROR: alter diskgroup data online disk '.*' force\n"
+p383
+I97
+sS'IMR has experienced some problems and can.*\n'
+p384
+I148
+sS'NOTE: rebalance interrupted for group \\S+ \\(.*\\)\n'
+p385
+I391
+sS'SQL> alter diskgroup \\S+ online quorum disk \\S+\n'
+p386
+I616
+sS"ERROR: \\S+ \\S+ \\S+ \\S+ \\S+  DISK '.*' \\S+ \\S+\n"
+p387
+I70
+sS'Linux-x86_64 Error: \\S+ Input/output error\n'
+p388
+I194
+sS'Process termination requested for pid \\S+ \\[.*\\], \\[.*\\] \\[.*\\]\n'
+p389
+I550
+sS'NOTE: cache recovered group \\S+ to fcn \\S+\n'
+p390
+I316
+sS'DATA_0002 \\(.*\\)\n'
+p391
+I50
+sS'NOTE: assigning \\S+ to group \\S+ \\(.*\\) with \\S+ parallel I/O\n'
+p392
+I300
+sS"ORA-15173: entry '.*' does not exist in directory '.*'\n"
+p393
+I483
+sS'Binary of new process does not match binary which started instance\n'
+p394
+I30
+sS'Expecting \\S+ \\S+ instances to leave the cluster.\n'
+p395
+I124
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+ \\S+  SITE siteq  QUORUM  FAILGROUP \\S+  DISK '.*' \\S+ \\S+  SIZE \\S+\n"
+p396
+I641
+sS'No label in disk \\S+\n'
+p397
+I438
+sS'NOTE: cache mounting group \\S+ \\(.*\\) succeeded\n'
+p398
+I314
+sS'Exadata Auto Mgmt: \\S+ \\S+ Disk ./\n'
+p399
+I119
+sS'TNS for Linux: Version \\S+ - Production\n'
+p400
+I714
+sS'IO elapsed time: \\S+ usec Time waited on I/O: \\S+ usec\n'
+p401
+I152
+sS'PAGESIZE  AVAILABLE_PAGES  EXPECTED_PAGES  ALLOCATED_PAGES  ERROR\\(.*\\)\n'
+p402
+I532
+sS'Shared memory segment for instance monitoring created\n'
+p403
+I685
+sS'USER \\(.*\\): terminating the instance due to error \\S+\n'
+p404
+I725
+sS'WARNING: \\S+ signaled when performing \\S+ block repair for \\S+ \\S+ \\S+\n'
+p405
+I750
+sS'issue alter system set ".*" = true to disable these messages\n'
+p406
+I821
+sS'PSP0 started with \\S+ \\S+ \\S+\n'
+p407
+I538
+sS'ORA-15018: diskgroup cannot \\S+ created\n'
+p408
+I459
+sS'start recovery: pdb \\S+ passed in flags \\S+ \\(.*\\)\n'
+p409
+I853
+sS'ORA-15080: synchronous I/O operation failed to read block \\S+ of disk \\S+ in disk group\n'
+p410
+I477
+sS'NOTE: \\S+ process exiting due to lack of \\S+ file activity for \\S+ seconds\n'
+p411
+I231
+sS"ALTER \\S+ \\S+ event='.*',.* \\[.*\\] disk highest'.*'trace \\[.*\\] disk highest'.*'15199 trace name context forever, level 0x4000707.*\n"
+p412
+I3
+sS'NOTE: \\S+ requested to fence client \\S+ id \\S+ \\S+\n'
+p413
+I236
+sS'ORA-59709: No site identified for the disk \\S+\n'
+p414
+I518
+sS'ORA-17503: \\S+ Failed to open file .DATA/orapwasm\n'
+p415
+I497
+sS'Set master node info\n'
+p416
+I684
+sS'NOTE: initiating \\S+ update: grp \\S+ \\(.*\\), dsk = \\S+ mask = \\S+ op = \\S+ mandatory\n'
+p417
+I379
+sS"SQL> \\S+ \\S+ \\S+ \\S+  SITE sitea  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p418
+I606
+sS'Stopping background process \\S+\n'
+p419
+I691
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+ \\S+  SITE siteq  DISK '.*' \\S+ \\S+\n"
+p420
+I640
+sS'NOTE: already refreshed membership for group 1/0x8e10855f \\(.*\\)\n'
+p421
+I298
+sS'Cluster Synchronization Service is shutting down\n'
+p422
+I44
+sS'CSDG\n'
+p423
+I39
+sS'ORA-1092 \\S+ opitsk aborting process\n'
+p424
+I455
+sS'NOTE: No voting file found on diskgroup \\S+\n'
+p425
+I275
+sS'Could not connect to other instances in the cluster during startup. Hence, \\S+ is terminating the instance. Please check the \\S+ trace file for details. Also, please check the network logs of this instance along with clusterwide network health for problems and then re-start this instance.\n'
+p426
+I47
+sS'WARNING: Disk Group \\S+ containing spfile for this instance is not mounted\n'
+p427
+I755
+sS'NOTE: relocating client \\S+ \\(.*\\) to its local instance; Message from node \\S+ - \\S+ Instance \\S+ is \\S+\n'
+p428
+I399
+sS'LGWR started with \\S+ \\S+ \\S+\n'
+p429
+I176
+sS'NOTE: Cleaning up fence pending client id \\S+ \\[.*\\] \\(.*\\) \\[.*\\]\n'
+p430
+I255
+sS'path:AFD:SU2\n'
+p431
+I841
+sS'MMNL started with \\S+ \\S+ \\S+\n'
+p432
+I203
+sS'VKTM running at \\(.*\\) precision\n'
+p433
+I737
+sS'IPC Send timeout detected. Sender: ospid \\S+ \\[.*\\]\n'
+p434
+I154
+sS'NOTE: relocating client \\S+ \\(.*\\)\n'
+p435
+I401
+sS'NOTE: GroupBlock outside rolling migration privileged region\n'
+p436
+I272
+sS'subsys:OSS \\S+ \\S+ \\S+ osderr2:0x0\n'
+p437
+I855
+sS"SHUTDOWN: waiting for detached processes '.*' to terminate.\n"
+p438
+I573
+sS'Direct \\S+ channel id \\[.*\\] path \\[.*\\] to filer \\[.*\\] via local \\[.*\\] is \\S+  \n'
+p439
+I61
+sS'ORA-15027: active use of diskgroup ".*" precludes its dismount\n'
+p440
+I461
+sS'ERROR: .*\n'
+p441
+I69
+sS'Reconfiguration \\S+ \\(.*\\)\n'
+p442
+I563
+sS"SQL> alter diskgroup data \\S+ site sitea disk '.*' force\n"
+p443
+I617
+sS'ERROR: Shared memory area is accessible to instance startup process\n'
+p444
+I85
+sS'ORA-29710: Current operation aborted by Cluster Synchronization Services\n'
+p445
+I508
+sS'SQL> alter diskgroup \\S+ \\S+\n'
+p446
+I611
+sS'SUCCESS: grp \\S+ disk \\S+ going offline\n'
+p447
+I673
+sS'ORA-29701: unable to connect to Cluster Synchronization Service\n'
+p448
+I502
+sS'NOTE: client \\S+ no longer has group \\S+ \\(.*\\) mounted\n'
+p449
+I330
+sS'LICENSE_SESSIONS_WARNING = \\S+\n'
+p450
+I179
+sS"SQL> alter diskgroup \\S+ \\S+ directory '.*'\n"
+p451
+I609
+sS"ERROR: alter diskgroup data \\S+ site siteb disk '.*' force\n"
+p452
+I94
+sS"WARNING: failed to get diskgroup list for database '.*'\n"
+p453
+I774
+sS'NOTE: repairing extent \\S+ of file \\S+ group \\S+\n'
+p454
+I405
+sS'PING started with \\S+ \\S+ \\S+\n'
+p455
+I533
+sS'NOTE: starting \\S+ \\S+\n'
+p456
+I412
+sS"SQL> \\S+ \\S+ \\S+ \\S+  SITE \\S+  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p457
+I603
+sS'ORA-06512: at ".*", line \\S+\n'
+p458
+I451
+sS'WARNING: failed to online diskgroup resource \\S+ \\(.*\\)\n'
+p459
+I775
+sS'Using default \\S+ of \\S+ \\S+\n'
+p460
+I730
+sS'NOTE: assigning \\S+ to group \\S+ \\(.*\\) to compute estimates\n'
+p461
+I299
+sS'GMON dumping for group \\S+\n'
+p462
+I138
+sS'NOTE: \\S+ sync \\S+ last written \\S+ \\S+\n'
+p463
+I242
+sS'NOTE: found stale ownerid \\S+ for client \\S+\n'
+p464
+I355
+sS'path:o/192.168.40.239/CRS_CD_00_nshc01celadm08\n'
+p465
+I846
+sS'NOTE: group \\S+ updated \\S+ location: disks \\S+ \\S+\n'
+p466
+I371
+sS'ERROR: alter diskgroup \\S+ online disk .*\n'
+p467
+I90
+sS'PXMN started with \\S+ \\S+ \\S+\n'
+p468
+I539
+sS'Starting \\S+ instance \\(.*\\) \\(.*\\)\n'
+p469
+I689
+sS'NOTE: Created Virtual Allocation Locator \\(.*\\) and Table \\(.*\\) directories for group \\S+ \\(.*\\)\n'
+p470
+I258
+sS'KSIPC Loopback \\S+ addresses\\(.*\\):\n'
+p471
+I167
+sS'ORA-488 \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\]\n'
+p472
+I511
+sS'Fatal \\S+ connect error \\S+\n'
+p473
+I127
+sS'Expected per process system memlock \\(.*\\) limit to lock\n'
+p474
+I123
+sS'Incident details in: \\S+\n'
+p475
+I158
+sS'PMAN started with \\S+ \\S+ \\S+\n'
+p476
+I534
+sS'afdt_check_syntax: \\S+\n'
+p477
+I797
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+ \\S+  SITE sitea  FAILGROUP ted1  DISK '.*' \\S+ ted1  SIZE \\S+\n"
+p478
+I639
+sS'NOTE: initializing header \\(.*\\) on grp \\S+ disk \\S+\n'
+p479
+I376
+sS'NOTE: client EXDB05271:EXDB0527:nshc01a-dsc id \\S+ has reconnected to \\S+ inst \\S+ \\(.*\\), or has been fenced\n'
+p480
+I335
+sS"ORA-59703: Inconsistent site information in disk '.*'\n"
+p481
+I516
+sS'WARNING: \\S+ does not support ipclw. Switching to skgxp\n'
+p482
+I745
+sS'NOTE: blocked Flex client \\S+ registered, osid \\S+ mbr \\S+ asmb \\S+ \\(.*\\)\n'
+p483
+I302
+sS'Submitted all remote-enqueue requests\n'
+p484
+I694
+sS'ORA-15416: \\S+ disk \\S+ in disk group \\S+ is offline.\n'
+p485
+I495
+sS'NOTE: client EXDB05271:EXDB0527:nshc01a-dsc deregistered\n'
+p486
+I334
+sS'There are no devices to discover.\n'
+p487
+I720
+sS'Receiver: inst \\S+ binc \\S+ ospid \\S+\n'
+p488
+I562
+sS'cluster interconnect \\S+ version: Oracle \\S+ \\(.*\\)\n'
+p489
+I808
+sS'WARNING: failed to find state to reconnect client \\S+ id \\S+ \\S+ after \\S+ secs\n'
+p490
+I773
+sS'ORA-15133: instance recovery required for diskgroup \\S+\n'
+p491
+I482
+sS'ORA-15042: \\S+ disk ".*" is missing from group number ".*"\n'
+p492
+I469
+sS'ORA-29746 \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\]\n'
+p493
+I509
+sS'SQL> alter diskgroup data dismount\n'
+p494
+I621
+sS'Errors in file \\S+\n'
+p495
+I117
+sS'CLI notifier \\S+ \\S+\n'
+p496
+I34
+sS'NOTE: \\S+ \\(.*\\) connected to \\S+ instance \\S+ osid: \\S+ \\(.*\\)\n'
+p497
+I209
+sS'KSIPC: Client: \\S+ Transport: \\S+\n'
+p498
+I168
+sS'ORA-29709: Communication failure with Cluster Synchronization Services\n'
+p499
+I506
+sS'ORA-15020: discovered duplicate \\S+ disk ".*"\n'
+p500
+I460
+sS'NOTE: detached from domain \\S+\n'
+p501
+I342
+sS'BKDG\n'
+p502
+I28
+sS'WARNING: Hbeat \\S+ to \\S+ disk \\S+ in group \\S+ failed. \\[.*\\]\n'
+p503
+I757
+sS'NOTE: Erasing header on \\S+\n'
+p504
+I266
+sS'IMR has experienced some problems during thread mount, \\(.*\\)\n'
+p505
+I149
+sS'NOTE: disk \\S+ \\(.*\\) in group \\S+ \\(.*\\) is locally offline for writes\n'
+p506
+I345
+sS'WARNING: could not find any \\S+ disk in grp \\S+\n'
+p507
+I770
+sS'VERSION \\S+\n'
+p508
+I734
+sS'NOTE: check client alert log.\n'
+p509
+I318
+sS'Waiting for instances to leave: \\S+ \\S+\n'
+p510
+I789
+sS'ORA-15017: diskgroup ".*" cannot \\S+ mounted\n'
+p511
+I458
+sS'Using parameter settings in client-side pfile\n'
+p512
+I732
+sS"SQL> \\S+ \\S+ \\S+ \\S+ \\S+  SITE sitea  FAILGROUP ted1  DISK '.*' \\S+ ted1  SIZE \\S+\n"
+p513
+I595
+sS'ORA-7274 \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\]\n'
+p514
+I523
+sS'NOTE: force \\S+ map free for map id \\S+\n'
+p515
+I354
+sS'ERROR: \\S+ terminating the instance due to storage split in grp \\S+\n'
+p516
+I80
+sS'NOTE: skipping rediscovery for group \\S+ \\(.*\\) on local instance.\n'
+p517
+I411
+sS'KSXP: setting socket save mode to \\S+\n'
+p518
+I170
+sS'path:o/192.168.40.239/CRS_CD_02_nshc01celadm08\n'
+p519
+I847
+sS"SQL> alter diskgroup data \\S+ site siteb disk '.*' force\n"
+p520
+I619
+sS'SU1 \\(.*\\)\n'
+p521
+I632
+sS"SQL> alter diskgroup \\S+ online disk '.*' force\n"
+p522
+I615
+sS'SUCCESS: alter diskgroup vfdg rebalance\n'
+p523
+I667
+sS'NOTE: Standard client \\S+ registered, osid \\S+ mbr \\S+ asmb \\S+ \\(.*\\)\n'
+p524
+I281
+sS'NOTE: removing stale \\S+ \\S+ for client \\S+ \\(.*\\)\n'
+p525
+I403
+sS'nt \\S+ err code: \\S+\n'
+p526
+I831
+sS'NOTE: \\S+ fcn on disk \\S+ synced at fcn \\S+\n'
+p527
+I223
+sS'NOTE: group \\S+ updated \\S+ location: disks \\S+ \\S+ \\S+ \\S+\n'
+p528
+I369
+sS'Tracing not turned on.\n'
+p529
+I723
+sS"SQL> alter diskgroup data online disk '.*' force\n"
+p530
+I622
+sS'NOTE: completed online of disk group \\S+ disks\n'
+p531
+I338
+sS'NOTE: requesting \\S+ \\S+ \\S+ for \\S+\n'
+p532
+I406
+sS'NOTE: Instance updated \\S+ to \\S+ for grp \\S+ \\(.*\\).\n'
+p533
+I273
+sS'Fatal \\S+ connect error \\S+ connecting to:\n'
+p534
+I126
+sS'NOTE: Voting File refresh pending for group \\S+ \\(.*\\)\n'
+p535
+I292
+sS'System State dumped to trace file \\S+\n'
+p536
+I697
+sS'CRS_CD_00_NSHC01CELADM08 \\(.*\\)\n'
+p537
+I36
+sS'WARNING: client \\[.*\\] cleanup delayed; waited \\S+ pid \\S+ mbr \\S+\n'
+p538
+I767
+sS'NOTE: \\S+ update grp = \\S+ completed successfully\n'
+p539
+I243
+sS'No Cluster Synchronization Service reconfig event in \\S+ seconds\n'
+p540
+I437
+sS'ORA-15032: not all alterations performed\n'
+p541
+I465
+sS"SQL> \\S+ \\S+ \\S+ \\S+ \\S+  SITE siteq  QUORUM  FAILGROUP Qfg1  DISK '.*' \\S+ \\S+\n"
+p542
+I600
+sS'KSIPC Available Transports: \\S+\n'
+p543
+I166
+sS'NOTE: starting rebalance of group \\S+ \\(.*\\) at power \\S+\n'
+p544
+I413
+sS'large_pool_size          = \\S+\n'
+p545
+I826
+sS'afdt_libinit: \\S+\n'
+p546
+I799
+sS'NOTE: erasing header on grp \\S+ disk \\S+\n'
+p547
+I352
+sS'NOTE: \\S+ clearing idle groups before exit\n'
+p548
+I215
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+ \\S+  SITE sitea  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p549
+I638
+sS'afdb_scandisk: \\S+\n'
+p550
+I796
+sS'Client address: \\(.*\\)\n'
+p551
+I42
+sS'ORA-27061: waiting for \\S+\n'
+p552
+I498
+sS'NOTE: waiting for instance recovery of group \\S+\n'
+p553
+I428
+sS'SUCCESS: alter diskgroup \\S+ \\S+\n'
+p554
+I658
+sS'kjidomenacan initialized to \\S+\n'
+p555
+I824
+sS'High Throughput Write functionality enabled\n'
+p556
+I147
+sS'NOTE: group \\S+ updated \\S+ location: disks \\S+ \\S+ \\S+ \\S+ \\S+ \\S+\n'
+p557
+I367
+sS'asm agent call crs .//. \\{.*\\} ./\n'
+p558
+I805
+sS'NOTE: \\S+ expansion required for disk group \\S+\n'
+p559
+I222
+sS"OS Pid: \\S+ executed alter system set events '.*'\n"
+p560
+I527
+sS'NOTE: group \\S+ updated \\S+ location: disks \\S+ \\S+ \\S+\n'
+p561
+I370
+sS'SQL> alter diskgroup \\S+ online disk \\S+\n'
+p562
+I614
+sS'LMS \\S+ \\S+ \\S+ shadows cancelled, \\S+ closed, \\S+ Xw survived, skipped \\S+\n'
+p563
+I189
+sS'NOTE: Starting expel slave for group \\S+ \\(.*\\)\n'
+p564
+I282
+sS'NOTE: \\S+ successfully validated lock domain \\S+ inc \\S+ \\(.*\\)\n'
+p565
+I240
+sS'NOTE: cache is mounting group \\S+ created on \\S+ \\S+\n'
+p566
+I312
+sS'CELL communication is configured to use \\S+ interface\\(.*\\):\n'
+p567
+I32
+sS'NOTE: Termination of \\S+ session succeeded for \\[.*\\] due to instance shutdown\n'
+p568
+I286
+sS'ORA-00481: \\S+ process terminated with error\n'
+p569
+I446
+sS'WARNING: \\S+ unable to close thread \\S+ group \\S+ \\(.*\\) due to disconnected client\\(.*\\) from previous incarnation of \\S+ cluster\n'
+p570
+I751
+sS'ERROR: \\S+ in \\S+ recovery for diskgroup \\S+ \\(.*\\)\n'
+p571
+I79
+sS'GMON updating disk modes for group \\S+ at \\S+ for pid \\S+ osid \\S+\n'
+p572
+I142
+sS"SUCCESS: create diskgroup tmpdg external redundancy disk '.*' attribute '.*'='.*','.*'='.*','.*'='.*'\n"
+p573
+I668
+sS'NOTE: \\S+ waiting for thread \\S+ recovery enqueue\n'
+p574
+I245
+sS'WARNING: \\(.*\\) disk offline and rejecting I/O\n'
+p575
+I742
+sS'WARNING: Waited \\S+ secs for write \\S+ to \\S+ disk \\S+ in group \\S+\n'
+p576
+I764
+sS'ERROR: \\S+ failed to obtain \\S+ global quorum of supporting sites in group \\S+ \\(.*\\)\n'
+p577
+I78
+sS'GMON \\(.*\\): terminating the instance due to error \\S+\n'
+p578
+I135
+sS'WARNING: grp \\S+ all disks in quorum site siteq being dropped.\n'
+p579
+I782
+sS'WARNING: Oracle executable binary mismatch detected.\n'
+p580
+I759
+sS'NOTE: \\S+ recovery sucessfully read \\S+ from one mirror side\n'
+p581
+I233
+sS'WARNING: promoting mount of diskgroup \\S+ to force.\n'
+p582
+I786
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+ \\S+  SITE siteq  QUORUM  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p583
+I642
+sS'WARNING: could not find \\S+ disk\n'
+p584
+I769
+sS'afdt_errorsLEM: \\S+\n'
+p585
+I798
+sS"SQL> \\S+ \\S+ \\S+ \\S+  SITE sitea  DISK '.*' \\S+ \\S+\n"
+p586
+I604
+sS'NOTE: updated gpnp profile \\S+ \\S+ to\n'
+p587
+I421
+sS'Non-local Process blocks cleaned out\n'
+p588
+I441
+sS"SUCCESS: \\S+ \\S+ tstdg \\S+ \\S+  SITE sitea  FAILGROUP \\S+  DISK '.*' \\S+ \\S+  SIZE \\S+\n"
+p589
+I651
+sS'NOTE: Diskgroup used for \\S+ \\S+ \\S+\n'
+p590
+I263
+sS'LMON started with \\S+ \\S+ \\S+\n'
+p591
+I188
+sS'kjbdomatt send to inst \\S+\n'
+p592
+I822
+sS'Please refer at \\S+ trace file for details.\n'
+p593
+I544
+sS'NOTE: group \\S+ initial \\S+ location: disks \\S+ \\S+ \\S+ \\S+ \\S+ \\S+ \\S+\n'
+p594
+I362
+sS'disk: \\S+ \\S+ \\S+ file number: \\S+ extent: \\S+\n'
+p595
+I812
+sS'WARNING: found another non-responsive disk \\S+ \\(.*\\) that will \\S+ offlined\n'
+p596
+I779
+sS"SQL> \\S+ \\S+ \\S+ \\S+ \\S+  SITE siteq  QUORUM  FAILGROUP \\S+  DISK '.*' \\S+ diskq  SIZE \\S+\n"
+p597
+I599
+sS'ORA-56864: Master Diskmon ".*" operation cannot complete because of \\S+ \\S+ network error\n'
+p598
+I514
+sS'NOTE: \\S+ did instance recovery for group \\S+ domain \\S+\n'
+p599
+I220
+sS'Please see \\S+ and oraping trace files for details.\n'
+p600
+I546
+sS'KSXPPING: \\S+ selected for Ping\n'
+p601
+I171
+sS'NOTE: cache creating group \\S+ \\(.*\\)\n'
+p602
+I306
+sS'validated domain \\S+ flags = \\S+\n'
+p603
+I859
+sS'WARNING: Found \\S+ stale FDs on foreground processes\n'
+p604
+I756
+sS'OS ping to instance \\S+ has \\S+\n'
+p605
+I528
+sS'ERROR: alter diskgroup \\S+ rebalance\n'
+p606
+I92
+sS'Creating new log segment:\n'
+p607
+I48
+sS'MARK started with \\S+ \\S+ \\S+\n'
+p608
+I199
+sS'to lock 100% of \\S+ \\S+ \\S+ \\(.*\\) pages into physical memory\n'
+p609
+I857
+sS'NOTE: Suppressing further \\S+ \\S+ errors on \\S+ \\S+\n'
+p610
+I285
+sS'path:AFD:DATA1\n'
+p611
+I835
+sS'TED4 \\(.*\\)\n'
+p612
+I705
+sS'MGMT\n'
+p613
+I201
+sS'NOTE: setting \\S+ start \\S+ for group \\S+ thread \\S+ to \\S+\n'
+p614
+I410
+sS"SQL> alter diskgroup vfdg online disk '.*'\n"
+p615
+I627
+sS'NOTE: Cluster configuration type = \\S+ \\[.*\\]\n'
+p616
+I256
+sS'Linux-x86_64 Error: \\S+ No such file or directory\n'
+p617
+I195
+sS'path:AFD:OCRDG3\n'
+p618
+I839
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+ \\S+  SITE \\S+  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p619
+I635
+sS'NOTE: client \\S+ mounted group \\S+ \\(.*\\)\n'
+p620
+I329
+sS'SZAUD: Failed to initialized \\S+ \\[.*\\] \\[.*\\]\n'
+p621
+I679
+sS'Session \\S+ \\S+ Serial number: \\S+\n'
+p622
+I683
+sS'ORA-00493: \\S+ process terminated with error\n'
+p623
+I447
+sS'NOTE: set version \\S+ for asmCompat \\S+ for group \\S+\n'
+p624
+I409
+sS"Exadata error:'.*'\n"
+p625
+I121
+sS'NOTE: Advanced to new \\S+ format for group \\S+\n'
+p626
+I251
+sS'WARNING: Offline of disk \\S+ \\(.*\\) in group \\S+ and mode \\S+ failed on \\S+ inst \\S+\n'
+p627
+I758
+sS'LCK0 started with \\S+ \\S+ \\S+\n'
+p628
+I173
+sS'NOTE: Adding disk \\S+ \\(.*\\) to grp \\S+ \\(.*\\) \\(.*\\)\n'
+p629
+I250
+sS'ARB0 started with \\S+ \\S+ \\S+\n'
+p630
+I8
+sS'NOTE: voting file deletion \\(.*\\) on grp \\S+ disk \\S+\n'
+p631
+I426
+sS'NOTE: reopening \\S+ disks for group \\S+\n'
+p632
+I404
+sS'LMHB \\(.*\\): terminating the instance due to error \\S+\n'
+p633
+I183
+sS'Dirty Detach Reconfiguration complete \\(.*\\)\n'
+p634
+I62
+sS"ALTER \\S+ \\S+ event='.*' SCOPE=SPFILE;\n"
+p635
+I2
+sS'SQL> \\S+ \\S+ \\S+ \\S+  DISK .* \\S+ \\S+\n'
+p636
+I601
+sS'NOTE: ospid \\S+ initiating cluster wide offline of disk \\S+ in group \\S+\n'
+p637
+I388
+sS'NOTE: released resources held for \\S+ \\S+\n'
+p638
+I397
+sS'NOTE: ospid \\S+ initiating cluster wide offline of disks \\S+ and \\S+ in group \\S+\n'
+p639
+I389
+sS'Global Resource Directory partially frozen for dirty detach\n'
+p640
+I146
+sS'TED1 \\(.*\\)\n'
+p641
+I702
+sS'ERROR: \\S+ thrown in \\S+ for group number \\S+\n'
+p642
+I81
+sS'Autotune of undo retention is turned on.\n'
+p643
+I26
+sS'IPC Vendor \\S+ proto \\S+\n'
+p644
+I157
+sS'NOTE: \\S+ successfully wrote to at least one mirror side\n'
+p645
+I241
+sS'NOTE: voting file deletion on grp \\S+ disk \\S+\n'
+p646
+I427
+sS'ORA-29701 \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\]\n'
+p647
+I501
+sS'PMON \\(.*\\): terminating the instance due to error \\S+\n'
+p648
+I536
+sS"DISK '.*' \\S+ \\S+\n"
+p649
+I57
+sS'System parameters with non-default values:\n'
+p650
+I699
+sS'SUCCESS: refreshed membership for \\S+ \\(.*\\)\n'
+p651
+I675
+sS'ORA-15062: \\S+ disk is globally closed\n'
+p652
+I471
+sS'WARNING: Disk \\S+ \\(.*\\) in group \\S+ will \\S+ dropped in: \\(.*\\) secs on \\S+ inst \\S+\n'
+p653
+I753
+sS'NOTE: initial disk modes for disk \\S+ \\(.*\\) in group \\S+ \\(.*\\) is not completely online: modes \\S+ lflags \\S+\n'
+p654
+I375
+sS'New Low - High Load Threshold Range = \\[.*\\]\n'
+p655
+I435
+sS'GMON updating group \\S+ at \\S+ for pid \\S+ osid \\S+\n'
+p656
+I144
+sS'NOTE: enlarging \\S+ to \\S+ threads for group \\S+ \\(.*\\)\n'
+p657
+I350
+sS'NOTE: Using GPnP to retrieve the \\S+ password file location in exclusive mode\n'
+p658
+I290
+sS'NOTE: registering \\S+ \\[.*\\] for client \\S+ \\S+ ospid \\S+\n'
+p659
+I396
+sS'lmon registered with \\S+ - instance number \\S+ \\(.*\\)\n'
+p660
+I827
+sS'NOTE: \\S+ attempting to mount thread \\S+ for diskgroup \\S+ \\(.*\\)\n'
+p661
+I214
+sS"SQL> \\S+ \\S+ tstdg \\S+ \\S+  SITE sitea  FAILGROUP \\S+  DISK '.*' \\S+ \\S+  SIZE \\S+\n"
+p662
+I608
+sS'CLMN started with \\S+ \\S+ \\S+\n'
+p663
+I35
+sS'NOTE: redo buffer size is \\S+ blocks \\(.*\\)\n'
+p664
+I393
+sS'Storage:\tExadata\n'
+p665
+I692
+sS'ERROR: disk 0\\(.*\\) in group .* cannot \\S+ offlined because the disk group has external redundancy.\n'
+p666
+I104
+sS"SQL> \\S+ \\S+ \\S+ \\S+ \\S+  SITE siteq  QUORUM  FAILGROUP \\S+  DISK '.*' \\S+ \\S+  SIZE \\S+\n"
+p667
+I597
+sS'TED2 \\(.*\\)\n'
+p668
+I703
+sS'SUCCESS: Exadata diskgroup \\S+ was mounted\n'
+p669
+I655
+sS'Number of processor \\S+ in the system is \\S+\n'
+p670
+I442
+sS'Use \\S+ or Support Workbench to package the incident.\n'
+p671
+I728
+sS'New instances \\(.*\\) \\S+\n'
+p672
+I436
+sS'ORA-29702: error occurred in Cluster Group Service operation\n'
+p673
+I504
+sS'NOTE: \\S+ registering with \\S+ instance as Standard client \\S+ \\(.*\\) \\(.*\\)\n'
+p674
+I234
+sS'LMS0 \\(.*\\) has detected no messaging activity from instance \\S+\n'
+p675
+I190
+sS'NOTE: This instance is the master for audit cleanup\n'
+p676
+I288
+sS'Attached to domain \\S+ \\(.*\\)\n'
+p677
+I24
+sS"incarnation:\\S+ \\S+ result:'.*'\n"
+p678
+I818
+sS'NOTE: allocating \\S+ on grp \\S+ disk \\S+\n'
+p679
+I297
+sS"SITE siteb  DISK '.*' \\S+ \\S+\n"
+p680
+I584
+sS'NOTE: \\S+ \\S+ \\S+ copy \\S+ relocating from \\S+ to \\S+ at \\S+ \\S+\n'
+p681
+I211
+sS'NOTE: \\[.*\\] \\S+ \\S+ file \\S+ osid \\S+\n'
+p682
+I247
+sS"ALTER \\S+ \\S+ listener_networks='.*','.*' SCOPE=MEMORY SID='.*';\n"
+p683
+I4
+sS'List of instances \\(.*\\) \\S+\n'
+p684
+I196
+sS"ERROR: \\S+ \\S+ \\S+ \\S+  QUORUM \\S+ '.*' \\S+ \\S+\n"
+p685
+I74
+sS'The instance eviction \\S+ is \\S+\n'
+p686
+I718
+sS'GMON querying group \\S+ at \\S+ for pid \\S+ osid \\S+\n'
+p687
+I140
+sS'NOTE: running client discovery for group \\S+ \\(.*\\)\n'
+p688
+I408
+sS'CRS_CD_02_NSHC01CELADM08 \\(.*\\)\n'
+p689
+I37
+sS'NOTE: \\S+ starting instance recovery of group \\S+ domain \\S+ inc \\S+ \\(.*\\) at \\S+ \\S+\n'
+p690
+I239
+sS'SYS auditing is enabled\n'
+p691
+I677
+sS'Instance shutdown complete \\(.*\\)\n'
+p692
+I163
+sS'NOTE: Voting file relocation is required in diskgroup \\S+\n'
+p693
+I293
+sS'Error: Shutdown in progress. Error: \\S+\n'
+p694
+I114
+sS'ksxp_exafusion_enabled_dcf: \\S+\n'
+p695
+I825
+sS'ERROR: group \\S+ \\(.*\\): could not validate disk \\S+\n'
+p696
+I106
+sS'NOTE: \\S+ heartbeating for grp \\S+ \\(.*\\)\n'
+p697
+I226
+sS'See Note \\S+ at My Oracle Support for error and packaging details.\n'
+p698
+I682
+sS'ERROR: diskgroup \\S+ was not \\S+\n'
+p699
+I105
+sS'LMD0 started with \\S+ \\S+ \\S+\n'
+p700
+I182
+sS'Warning: Oraping detected connectivity issues.\n'
+p701
+I792
+sS'Exadata cell: \\S+ is no longer accessible. I/O errors to disks on this might get suppressed\n'
+p702
+I120
+sS'in grp \\S+\n'
+p703
+I817
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+ \\S+  SITE siteq  QUORUM  FAILGROUP \\S+  DISK '.*' \\S+ diskq  SIZE \\S+\n"
+p704
+I643
+sS'validate pdb \\S+ flags \\S+ valid \\S+ pdb flags \\S+\n'
+p705
+I858
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+ \\S+  SITE sitea  FAILGROUP \\S+  DISK '.*' \\S+ \\S+  SIZE \\S+\n"
+p706
+I637
+sS'Using parameter settings in server-side \\S+ \\S+\n'
+p707
+I733
+sS'USER \\(.*\\): terminating the instance\n'
+p708
+I726
+sS'Increasing priority of \\S+ \\S+\n'
+p709
+I159
+sS'NOTE: Attempting voting file \\S+ \\S+ diskgroup \\S+\n'
+p710
+I254
+sS'ORA-07445: exception encountered: core dump \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\]\n'
+p711
+I454
+sS'LICENSE_MAX_USERS = \\S+\n'
+p712
+I178
+sS'WARNING: Background operations delayed until \\S+ \\S+ because \\S+ was not stopped cleanly and there could \\S+ disconnected client\\(.*\\)\n'
+p713
+I752
+sS'SMON started with \\S+ \\S+ \\S+\n'
+p714
+I589
+sS'node \\S+ does not exist. \\S+ = \\S+\n'
+p715
+I828
+sS'alter diskgroup \\S+ online disk \\S+\n'
+p716
+I801
+sS"LGWR \\(.*\\) waits for event '.*' for \\S+ secs.\n"
+p717
+I175
+sS'ORA-15090: handle \\S+ is not \\S+ valid descriptor\n'
+p718
+I480
+sS'NOTE: completed disk validation for \\S+ \\(.*\\)\n'
+p719
+I337
+sS"SITE sitea  FAILGROUP fg3  DISK '.*' \\S+ disk3  SIZE \\S+\n"
+p720
+I583
+sS'ORA-15283: \\S+ operation requires compatible.rdbms of \\S+ or higher\n'
+p721
+I490
+sS"NOTE: cleaning up empty system-created directory '.*'\n"
+p722
+I324
+sS'NOTE: \\S+ detected lock domain \\S+ invalid at system inc \\S+ \\S+ \\S+\n'
+p723
+I218
+sS'NOTE: client \\S+ should failover\n'
+p724
+I331
+sS'NOTE: Disk \\S+ in \\S+ \\S+ \\S+ \\S+ \\S+\n'
+p725
+I262
+sS'NOTE: \\S+ found thread \\S+ closed at \\S+ \\S+ lock \\S+ \\S+ \\S+\n'
+p726
+I224
+sS'ORA-27072: File I/O error\n'
+p727
+I500
+sS'NOTE: stopping process \\S+\n'
+p728
+I414
+sS'ORA-15067: command or option incompatible with diskgroup redundancy\n'
+p729
+I474
+sS'SUCCESS: Advanced compatible.rdbms to \\S+ for grp \\S+\n'
+p730
+I654
+sS'NOTE: group \\S+ initial \\S+ location: disks \\S+ \\S+ \\S+\n'
+p731
+I363
+sS'Tns error struct:\n'
+p732
+I722
+sS'ERROR: alter diskgroup \\S+ \\S+\n'
+p733
+I89
+sS'VFDG\n'
+p734
+I735
+sS'ORA-15078: \\S+ diskgroup was forcibly dismounted\n'
+p735
+I476
+sS'NOTE: Shutting down \\S+ background process\n'
+p736
+I280
+sS'IPC Send timeout: Terminating pid \\S+ osid \\S+\n'
+p737
+I156
+sS'NOTE: grp \\S+ disk \\S+ expelled from the \\S+\n'
+p738
+I372
+sS'Communications reconfiguration: \\S+ \\S+ by ospid \\S+\n'
+p739
+I46
+sS'Release:\t2.6.39-400.245.1.el6uek.x86_64\n'
+p740
+I564
+sS'NOTE: halting all I/Os to diskgroup \\S+ \\(.*\\)\n'
+p741
+I373
+sS'ORA-15130: diskgroup ".*" is being dismounted\n'
+p742
+I481
+sS'WARNING: Read Failed. \\S+ \\S+ \\S+ \\S+ \\S+\n'
+p743
+I761
+sS'NOTE: write to disk \\S+ succeeded\n'
+p744
+I430
+sS'TNS-00515: Connect failed because target host or object does not exist\n'
+p745
+I715
+sS'VKTM running at \\(.*\\)millisec precision with \\S+ quantum \\(.*\\)ms\n'
+p746
+I738
+sS'MMON started with \\S+ \\S+ \\S+\n'
+p747
+I204
+sS'NOTE: \\S+ not being messaged to dismount\n'
+p748
+I227
+sS'Please check instance \\S+ alert and \\S+ trace files for detail.\n'
+p749
+I542
+sS'ORA-15054: disk ".*" does not exist in diskgroup ".*"\n'
+p750
+I470
+sS'NOTE: Loaded library: /opt/oracle/extapi/64/asm/orcl/1/libafd12.so\n'
+p751
+I274
+sS'Cause - .*\n'
+p752
+I40
+sS'SUCCESS: ASM-initiated \\S+ \\S+ of group \\S+\n'
+p753
+I653
+sS"SUCCESS: alter diskgroup data \\S+ site sitea disk '.*'\n"
+p754
+I663
+sS'Release:\t2.6.39-400.248.3.el6uek.x86_64\n'
+p755
+I566
+sS'NOTE: discarding redo for group \\S+ disk \\S+\n'
+p756
+I344
+sS'NOTE: diskgroup must now \\S+ re-mounted prior to first use\n'
+p757
+I348
+sS'prior to instance startup operation.\n'
+p758
+I848
+sS'Dead instances \\(.*\\) \\S+\n'
+p759
+I59
+sS'LMON \\(.*\\) drops the \\S+ request from \\S+ \\(.*\\) because \\S+ is in progress and inst \\S+ is marked bad.\n'
+p760
+I185
+sS'ERROR: Failed to cleanup the \\S+ stale FDs\n'
+p761
+I83
+sS"SITE sitea  FAILGROUP fg2  DISK '.*' \\S+ disk2  SIZE \\S+\n"
+p762
+I581
+sS"ORA-00453: backgroud process '.*' is \\S+\n"
+p763
+I445
+sS'Per process system memlock \\(.*\\) limit = \\S+\n'
+p764
+I540
+sS'Suppressed nested communications reconfiguration: \\S+ \\S+\n'
+p765
+I696
+sS'TNS-12545: Connect failed because target host or object does not exist\n'
+p766
+I717
+sS'NOTE: Trace records dumped in trace file \\S+\n'
+p767
+I289
+sS'Decreasing priority of \\S+ \\S+\n'
+p768
+I60
+sS'NOTE: group \\S+ \\S+ not updated.\n'
+p769
+I360
+sS'allocate domain \\S+ valid . \\S+\n'
+p770
+I800
+sS'NOTE: \\S+ will attempt offline of disk \\S+ - no header\n'
+p771
+I246
+sS'NOTE: group \\S+ \\(.*\\) high disk header ckpt advanced to fcn \\S+\n'
+p772
+I357
+sS'INFRA\n'
+p773
+I151
+sS"SQL> alter diskgroup vfdg \\S+ site siteb disk '.*' name ted04 force\n"
+p774
+I625
+sS'Dirty detach reconfiguration started \\(.*\\)\n'
+p775
+I63
+sS'IPC Send timeout to \\S+ inc \\S+ for msg type \\S+ from opid \\S+\n'
+p776
+I155
+sS'DATA_0001 \\(.*\\)\n'
+p777
+I49
+sS'ORA-06512: at line \\S+\n'
+p778
+I452
+sS'NOTE: \\S+ \\S+ \\S+ found on disk \\S+ au \\S+ fcn \\S+ datfmt \\S+\n'
+p779
+I212
+sS"SQL> \\S+ \\S+ \\S+ \\S+  SITE siteb  DISK '.*' \\S+ \\S+\n"
+p780
+I607
+sS'System state dump requested by \\(.*\\), summary=\\[.*\\].\n'
+p781
+I700
+sS'NOTE: group \\S+ initial \\S+ location: disks \\S+\n'
+p782
+I365
+sS'Reason for not supporting certain system pagesizes:\n'
+p783
+I558
+sS'Exception \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\]\n'
+p784
+I122
+sS'SUCCESS: grp \\S+ disk \\S+ emptied\n'
+p785
+I672
+sS'NOTE: initiating \\S+ update: grp = \\S+\n'
+p786
+I380
+sS'Oracle Bequeath \\S+ Protocol Adapter for Linux: Version \\S+ - Production\n'
+p787
+I529
+sS'WARNING: rejecting addition of disk number \\S+ to group \\S+\n'
+p788
+I787
+sS'GMON checking disk modes for group \\S+ at \\S+ for pid \\S+ osid \\S+\n'
+p789
+I136
+sS'ossnet_fail_defcon: Giving up on Cell \\S+ as retry limit \\(.*\\) reached.\n'
+p790
+I833
+sS'Error: received an \\S+ event from the Cluster Synchronization Service\n'
+p791
+I115
+sS'ERROR: too many offline disks in \\S+ \\(.*\\)\n'
+p792
+I108
+sS'ORA-15315: Write errors in disk group \\S+ could lead to inconsistent \\S+ metadata.\n'
+p793
+I492
+sS'force\n'
+p794
+I815
+sS"ERROR: alter diskgroup \\S+ online disk '.*' force\n"
+p795
+I91
+sS'Processes \\S+ and \\S+ may \\S+ blocked while \\S+ performs thread mount.\n'
+p796
+I551
+sS'ORA-493 \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\] \\[.*\\]\n'
+p797
+I512
+sS'EXDG0527\n'
+p798
+I110
+sS'SQL> alter diskgroup vfdg rebalance\n'
+p799
+I629
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+  QUORUM \\S+ '.*' \\S+ \\S+\n"
+p800
+I646
+sS'Errors in file \\S+  \\(.*\\):\n'
+p801
+I116
+sS"SUCCESS: alter diskgroup vfdg online quorum disk '.*'\n"
+p802
+I666
+sS'RBAL started with \\S+ \\S+ \\S+\n'
+p803
+I554
+sS'PMON \\(.*\\): terminating the instance due to \\S+ error \\S+\n'
+p804
+I535
+sS'NOTE: \\S+ validation of lock domain \\S+ failed \\(.*\\)\n'
+p805
+I244
+sS'NOTE: Extended the Used Space Directory to thread \\S+\n'
+p806
+I267
+sS'NOTE: PatchLevel of this instance \\S+\n'
+p807
+I276
+sS'Shutting down archive processes\n'
+p808
+I686
+sS'NOTE: Created Used Space Directory for \\S+ threads\n'
+p809
+I257
+sS'Cell: \\S+ could not \\S+ opened during discovery\n'
+p810
+I41
+sS'NOTE: cache began mount \\(.*\\) of group \\S+ \\S+\n'
+p811
+I303
+sS'Please check the \\S+ log file for more \\S+\n'
+p812
+I543
+sS'ORA-15186: \\S+ error \\S+\n'
+p813
+I484
+sS'NOTE: cache initiating offline of disk \\S+ group \\S+\n'
+p814
+I311
+sS'LCK0 \\(.*\\) received unexpected status \\(.*\\) from the Cluster Synchronization Service.\n'
+p815
+I172
+sS'SUDG\n'
+p816
+I676
+sS'ORA-00604: error occurred at recursive \\S+ level \\S+\n'
+p817
+I449
+sS'NOTE: Physical metadata for diskgroup \\S+ \\(.*\\) was replicated.\n'
+p818
+I277
+sS'Release:\t2.6.39-400.277.1.el6uek.x86_64\n'
+p819
+I567
+sS'NOTE: remote asm mode is \\S+ \\(.*\\)\n'
+p820
+I402
+sS'ORA-15268: internal Oracle file \\S+ already exists.\n'
+p821
+I488
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+  SITE sitea  DISK '.*' \\S+ \\S+\n"
+p822
+I648
+sS"SITE siteQ  QUORUM  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p823
+I576
+sS'TMP1\n'
+p824
+I711
+sS'NOTE: recovering disk \\S+ in diskgroup \\S+ \\(.*\\) after \\S+ failed disk online\n'
+p825
+I392
+sS'GCR0\\[.*\\]: \\S+ process is not making progress for \\S+ secs, trying to restart it\n'
+p826
+I131
+sS'Waiting for instances to leave: \\S+\n'
+p827
+I790
+sS'requested by \\(.*\\), summary=\\[.*\\]\n'
+p828
+I850
+sS"SQL> alter diskgroup vfdg \\S+ site siteb disk '.*' name ted04\n"
+p829
+I626
+sS"ALTER \\S+ \\S+ local_listener='.*' SCOPE=MEMORY SID='.*';\n"
+p830
+I7
+sS'NOTE: dbwr not being msg.*\n'
+p831
+I340
+sS'Received detach msg from inst \\S+ for dom \\S+\n'
+p832
+I560
+sS'path:\\S+\n'
+p833
+I834
+sS'WARNING: failed to copy file \\S+ extent \\S+ disk \\S+ au \\S+ offset \\S+ status \\S+\n'
+p834
+I772
+sS'NOTE: updating disk modes to \\S+ from \\S+ for disk \\S+ \\(.*\\) in group \\S+ \\(.*\\): lflags \\S+    \n'
+p835
+I422
+sS'NOTE: \\S+ on disk \\S+ \\(.*\\) relocated at fcn \\S+ \\S+ \\S+ -> \\S+ \\S+\n'
+p836
+I228
+sS'CDB instance recovery on pdb \\S+ needs to \\S+ aborted \\(.*\\)\n'
+p837
+I31
+sS"SITE siteq  QUORUM  FAILGROUP \\S+  DISK '.*' \\S+ \\S+\n"
+p838
+I587
+sS'Scanned disk \\S+\n'
+p839
+I681
+sS"SUCCESS: \\S+ \\S+ \\S+ \\S+ \\S+  SITE siteq  QUORUM  FAILGROUP Qfg1  DISK '.*' \\S+ \\S+\n"
+p840
+I644
+sS'Process \\S+ died, see its trace file\n'
+p841
+I548
+sS"SITE sitea  FAILGROUP fg2  DISK '.*' \\S+ \\S+\n"
+p842
+I580
+sS'remote_login_passwordfile= ".*"\n'
+p843
+I849
+sS"SQL> \\S+ \\S+ \\S+ \\S+  SITE sitea  FAILGROUP \\S+  DISK '.*' \\S+ \\S+  SIZE \\S+\n"
+p844
+I605
+sS"ERROR: alter diskgroup vfdg \\S+ disk '.*' name \\S+ force\n"
+p845
+I99
+sS'SUCCESS: \\S+ \\S+ \\S+ \\S+  DISK .* \\S+ \\S+\n'
+p846
+I645
+sS'SU2 \\(.*\\)\n'
+p847
+I633
+sS'NOTE: group \\S+ updated \\S+ location: disks \\S+ \\S+ \\S+ \\S+ \\S+ \\S+ \\S+\n'
+p848
+I366
+sS'LREG started with \\S+ \\S+ \\S+\n'
+p849
+I192
+sS'Initial number of \\S+ is \\S+\n'
+p850
+I160
+sS"SQL> alter diskgroup data \\S+ site sitea disk '.*'\n"
+p851
+I618
+sS'ASMCMD ./ALTER \\S+ \\S+ \\S+\n'
+p852
+I17
+sS'NOTE: header on disk \\S+ advanced to format #2 using fcn \\S+\n'
+p853
+I374
+sS'Dumping diagnostic data in directory=\\[.*\\], requested by \\(.*\\), summary=\\[.*\\].\n'
+p854
+I67
+sS'NOTE: \\S+ client \\S+ disconnected unexpectedly.\n'
+p855
+I216
+sS'NOTE: Assigning number \\(.*\\) to disk \\(.*\\)\n'
+p856
+I253
+sS'Instance shutdown cancelled\n'
+p857
+I162
+sS'NOTE: initializing header on grp \\S+ disk \\S+\n'
+p858
+I377
+sS'asm_diskgroups           = ".*"\n'
+p859
+I806
+sS'NOTE: group \\S+ updated \\S+ location: disks \\S+ \\S+ \\S+ \\S+ \\S+\n'
+p860
+I368
+s.

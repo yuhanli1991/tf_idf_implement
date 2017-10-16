@@ -1,11 +1,16 @@
 import time
+import pickle
 
 start = time.clock()
 TEMPLATED_LOGS_LOC = "./templatedLogs/"
+TEMPLATED_LOGS_ID_LOC = "./pickleBase/templateID.pickle"
+TEMP_ID_MAP = "./pickleBase/idMap.pickle"
 EVENT_COUNT_THRESHOLD = 6
 FILE_NUMBER = 216
 EVENT_MIN_LENGTH = 5
+EVENT_MAX_LENGTH = 30
 OUTPUT_FILE = "./out/recurList_result.txt"
+TEMPLATE_BASE = "./asm_alertTemplate.txt"
 
 class recurList(object):
 
@@ -13,6 +18,8 @@ class recurList(object):
     def __init__(self):
         self.allList = []
         self.dupSub = []
+        self.idMap = {}
+        self.allIDList = []
 
     def getSize (self):
         s = 0
@@ -25,6 +32,9 @@ class recurList(object):
             fileName = TEMPLATED_LOGS_LOC + str(i)
             self.allList.append(self.readByLine(fileName))
         return self.allList
+    def getListAllFromPickle (self):
+        self.allList = pickle.load(open(TEMPLATED_LOGS_ID_LOC, "r"))
+        print (len(self.allList))
 
     def readByLine(self, fileName):
         file = open(fileName)
@@ -37,6 +47,30 @@ class recurList(object):
 
         file.close()
         return retList
+
+    def _createTmpID(self):
+        tmpList = self.readByLine(TEMPLATE_BASE)
+        for i in range(len(tmpList)):
+            self.idMap[tmpList[i]] = i
+        pickle.dump(self.idMap, open(TEMP_ID_MAP, "w"))
+
+    def convertToID(self):
+        self._createTmpID()
+
+        for f in self.allList:
+            tmpIDList = []
+            for l in f:
+                try:
+                    id = self.idMap[l]
+                    tmpIDList.append(id)
+                except:
+                    print ("Hit error when get log line's ID:")
+                    print (l)
+                    exit(1)
+            self.allIDList.append(tmpIDList)
+        pickle.dump(self.allIDList, open(TEMPLATED_LOGS_ID_LOC, "w"))
+
+
 
     # args: list, list
     # return: boolean
@@ -79,20 +113,20 @@ class recurList(object):
 
     def setNullBatch (self, ls, begin, end):
         for i in range (begin, end):
-            ls[i] = ''
+            ls[i] = -1
 
     def removeNullBatch (self):
         for f in self.allList:
             line = 0
             while line < len (f):
-                if f[line] == "":
+                if f[line] == -1:
                     del f[line]
                 else:
                     line += 1
 
 
-
     def recurList (self):
+        keys = self.readByLine(TEMPLATE_BASE)
         ret = {}
         # count = 1
         # pre = False
@@ -101,42 +135,65 @@ class recurList(object):
         for fileNum in range(FILE_NUMBER):
             tmpList = self.allList[fileNum]
             lineNum = 0
-            # for lineNum in range(len(tmpList)):
-            while lineNum < len(tmpList):
-                pre = False
-                preList = []
-                preCount = 1
-                listLen = EVENT_MIN_LENGTH
-                preDupSub = []
-                # for listLen in range(3, len(tmpList) - lineNum):
-                while listLen < len(tmpList) - lineNum:
-                    begin, end = lineNum, lineNum + listLen
-                    targetList = tmpList[begin : end]
-                    count = self.targetMatch(targetList, fileNum, lineNum)
+
+            with open(OUTPUT_FILE, "w") as outFile:
+
+
+                # for lineNum in range(len(tmpList)):
+                while lineNum < len(tmpList):
+                    pre = False
+                    preList = []
+                    preCount = 1
+                    listLen = EVENT_MIN_LENGTH
+                    preDupSub = []
+                    count = 0
+                    # for listLen in range(3, len(tmpList) - lineNum):
+                    while listLen < len(tmpList) - lineNum and listLen <= EVENT_MAX_LENGTH:
+                        begin, end = lineNum, lineNum + listLen
+                        targetList = tmpList[begin : end]
+                        count = self.targetMatchByDupSub(targetList, fileNum, lineNum)
+
+                        print (self.getSize())
+                        # print (listLen, count, count == 0 and pre == True)
+                        # print preDupSub
+                        # print self.dupSub
+
+                        if count > 0:
+                            preList = targetList
+                            preCount = count
+                            pre = True
+                            preDupSub = self.dupSub[:]
+                        elif count == 0 and pre == True:
+                            # self.delAllSubList(preList)
+                            self.removeDupSub(preDupSub)
+                            ret[str(preList)] = preCount
+
+
+                            for l in preList:
+                                outFile.write(keys[l])
+                            outFile.write(str(preCount))
+                            outFile.write("\n================\n")
+
+                            self.dupSub = []
+                            break
+                        elif count == 0 and pre == False:
+                            self.delSubList(tmpList, lineNum, lineNum + listLen - 1)
+                            self.dupSub = []
+                            break
+                        listLen += 1
+                        # print (fileNum, lineNum, listLen, count)
+
                     if count > 0:
-                        preList = targetList
-                        preCount = count
-                        pre = True
-                        preDupSub = self.dupSub
-                    elif count == 0 and pre == True:
-                        # self.delAllSubList(preList)
                         self.removeDupSub(preDupSub)
-                        ret[','.join(preList)] = preCount
-                        break
-                    elif count == 0 and pre == False:
-                        self.delSubList(tmpList, lineNum, lineNum + listLen - 1)
-                        break
-                    listLen += 1
-                if count > 0:
-                    self.removeDupSub(preDupSub)
-                    ret[','.join(preList)] = preCount
-                lineNum += 1
+                        ret[str(preList)] = preCount
+                    lineNum += 1
+            outFile.close()
         return ret
 
 
     # return: count, if 0 means it's not a event
     def targetMatch (self, targetList, fileNum, lineNum):
-        self.dupSub = []
+        # self.dupSub = []
         count = 1
         listLen = len(targetList)
         beginLine = lineNum + listLen
@@ -149,6 +206,41 @@ class recurList(object):
                     count += 1
                     self.dupSub.append((f, head, tail))
             beginLine = 0
+
+
+        if count >= EVENT_COUNT_THRESHOLD:
+            return count
+        else:
+            return 0
+
+    def targetMatchByDupSub (self, targetList, fileNum, lineNum):
+        count = 1
+        listLen = len(targetList)
+        beginLine = lineNum + listLen
+        if not self.dupSub:
+            for f in range(fileNum, FILE_NUMBER):
+                for l in range(beginLine, len(self.allList[f]) - listLen + 1):
+                    head, tail = l, l + listLen
+                    srcList = self.allList[f][head: tail]
+                    if (self.compareList(targetList, srcList)):
+                        # self.delSubList(self.allList[f], head, tail - 1)
+                        count += 1
+                        self.dupSub.append([f, head, tail])
+                beginLine = 0
+        else:
+            i = 0
+            while i < len(self.dupSub):
+                tup = self.dupSub[i]
+                f = tup[0]
+                head = tup[1]
+                tail = tup[2] + 1
+                if (self.compareList(targetList, self.allList[f][head : tail])):
+                    count += 1
+                    i += 1
+                    tup[2] = tail
+                else:
+                    del self.dupSub[i]
+
         if count >= EVENT_COUNT_THRESHOLD:
             return count
         else:
@@ -167,7 +259,12 @@ class recurList(object):
 
 if __name__ == "__main__":
     recurlist = recurList()
-    recurlist.getListAll()
+    # recurlist.getListAll()
+    # print (recurlist.getSize())
+    # recurlist.convertToID()
+
+
+    recurlist.getListAllFromPickle()
     print (recurlist.getSize())
     result = recurlist.recurList()
     print (result)
