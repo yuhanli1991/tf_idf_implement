@@ -261,18 +261,28 @@ class recurList(object):
         listCol = []
         for i in range(0, len(result), 2):
             listCol.append(result[i][1:].split(']')[0].split(' '))
+
+        print listCol
+        for i in range(len(listCol)):
+            if not listCol[i]:
+                continue
+
+            for j in range(i + 1, len(listCol)):
+                if not listCol[j]:
+                    continue
+                if (self.isBelongTo(listCol[i], listCol[j])):
+                    listCol[i] = []
+                elif (self.isBelongTo(listCol[j], listCol[i])):
+                    listCol[j] = []
+                print (i, j)
+
         i = 0
         while i < len(listCol):
-            j = i + 1
-            while j < len(listCol) and j > i:
-                if (self.isBelongTo(listCol[i], listCol[j])):
-                    del listCol[i]
-                    i -= 1
-                elif (self.isBelongTo(listCol[j], listCol[i])):
-                    del listCol[j]
-                else:
-                    j += 1
-            i += 1
+            if not listCol[i]:
+                del listCol[i]
+            else:
+                i += 1
+        return listCol
 
 
 
@@ -292,14 +302,15 @@ if __name__ == "__main__":
     # recurlist.convertToID()
 
 
-    recurlist.getListAllFromPickle()
-    print (recurlist.getSize())
-    result = recurlist.recurList()
-    print (result)
-    print (result.values())
-    print (len(result))
-    recurlist.writeResult(result, OUTPUT_FILE)
+    # recurlist.getListAllFromPickle()
+    # print (recurlist.getSize())
+    # result = recurlist.recurList()
+    # print (result)
+    # print (result.values())
+    # print (len(result))
+    # recurlist.writeResult(result, OUTPUT_FILE)
 
+    print len(recurlist.shrinkResult())
 
 
 
