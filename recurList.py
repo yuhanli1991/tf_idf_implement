@@ -10,6 +10,7 @@ FILE_NUMBER = 216
 EVENT_MIN_LENGTH = 5
 EVENT_MAX_LENGTH = 30
 OUTPUT_FILE = "./out/recurList_result.txt"
+OUTPUT_ID_FILE = "./out/recurList_result_id.txt"
 TEMPLATE_BASE = "./asm_alertTemplate.txt"
 
 class recurList(object):
@@ -62,7 +63,12 @@ class recurList(object):
             for l in f:
                 try:
                     id = self.idMap[l]
-                    tmpIDList.append(id)
+
+                    if tmpIDList and tmpIDList[-1] != id:
+                        tmpIDList.append(id)
+                    elif not tmpIDList:
+                        tmpIDList.append(id)
+
                 except:
                     print ("Hit error when get log line's ID:")
                     print (l)
@@ -70,6 +76,23 @@ class recurList(object):
             self.allIDList.append(tmpIDList)
         pickle.dump(self.allIDList, open(TEMPLATED_LOGS_ID_LOC, "w"))
 
+
+    def convertFromID (self, ls):
+        tmpMap = {}
+        tmpList = self.readByLine(TEMPLATE_BASE)
+        for i in range(len(tmpList)):
+            tmpMap[i] = tmpList[i]
+        retList = []
+
+        for event in ls:
+            l = []
+            for id in event:
+                line = tmpMap[int(id)]
+                l.append(line)
+            l.append('=============')
+            retList.append(l[:])
+
+        self.writeList(retList, "./out/tmp.out")
 
 
     # args: list, list
@@ -256,8 +279,15 @@ class recurList(object):
                 f.write("\n===========================\n")
             f.close()
 
+    def writeList(self, ls, file):
+        with open(file, "w") as f:
+            for key in ls:
+                for l in key:
+                    f.write(str(l) + "\n")
+            f.close()
+
     def shrinkResult (self):
-        result = self.readByLine(OUTPUT_FILE)
+        result = self.readByLine(OUTPUT_ID_FILE)
         listCol = []
         for i in range(0, len(result), 2):
             listCol.append(result[i][1:].split(']')[0].split(' '))
@@ -274,7 +304,7 @@ class recurList(object):
                     listCol[i] = []
                 elif (self.isBelongTo(listCol[j], listCol[i])):
                     listCol[j] = []
-                print (i, j)
+                # print (i, j)
 
         i = 0
         while i < len(listCol):
@@ -308,10 +338,17 @@ if __name__ == "__main__":
     # print (result)
     # print (result.values())
     # print (len(result))
-    # recurlist.writeResult(result, OUTPUT_FILE)
+    # recurlist.writeResult(result, "./out/recurList_result_id.txt")
 
-    print len(recurlist.shrinkResult())
+    r = recurlist.shrinkResult()
+    print r
+    print len(r)
 
+    with open("./tmp", "w") as f:
+        for i in r:
+            f.write(str(i) + "\n")
+        f.close()
+    recurlist.convertFromID(r)
 
 
     elapsed = (time.clock() - start)
