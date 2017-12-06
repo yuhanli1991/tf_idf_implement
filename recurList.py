@@ -1,5 +1,8 @@
 import time
 import pickle
+from LCS_solution import *
+from DButil import *
+from UnionFound import *
 
 start = time.clock()
 TEMPLATED_LOGS_LOC = "./templatedLogs/"
@@ -12,6 +15,8 @@ EVENT_MAX_LENGTH = 30
 OUTPUT_FILE = "./out/recurList_result.txt"
 OUTPUT_ID_FILE = "./out/recurList_result_id.txt"
 TEMPLATE_BASE = "./asm_alertTemplate.txt"
+CLASSIFY_RESULT = "./out/classify_result.txt"
+CALSSIFY_DETAIL = "./out/classify_detail.txt"
 
 class recurList(object):
 
@@ -27,12 +32,16 @@ class recurList(object):
         for f in self.allList:
             s += len(f)
         return s
+
+    # Return all templates files as list
     def getListAll (self):
 
         for i in range(1, FILE_NUMBER + 1):
             fileName = TEMPLATED_LOGS_LOC + str(i)
             self.allList.append(self.readByLine(fileName))
         return self.allList
+
+
     def getListAllFromPickle (self):
         self.allList = pickle.load(open(TEMPLATED_LOGS_ID_LOC, "r"))
         print (len(self.allList))
@@ -55,6 +64,7 @@ class recurList(object):
             self.idMap[tmpList[i]] = i
         pickle.dump(self.idMap, open(TEMP_ID_MAP, "w"))
 
+
     def convertToID(self):
         self._createTmpID()
 
@@ -64,7 +74,7 @@ class recurList(object):
                 try:
                     id = self.idMap[l]
 
-                    if tmpIDList and tmpIDList[-1] != id:
+                    if tmpIDList and tmpIDList[-1] != id:   #Remove duplicate lines if they are neighboured
                         tmpIDList.append(id)
                     elif not tmpIDList:
                         tmpIDList.append(id)
@@ -286,6 +296,9 @@ class recurList(object):
                     f.write(str(l) + "\n")
             f.close()
 
+    '''
+    Merge event which is sub array or another event
+    '''
     def shrinkResult (self):
         result = self.readByLine(OUTPUT_ID_FILE)
         listCol = []
@@ -325,6 +338,51 @@ class recurList(object):
                     return True
             return False
 
+
+
+    '''
+    classify event using union found
+    if length of lcs of events is larger than min of len(events), they are unioned.
+    output number of classes after classification
+    '''
+
+    def classify (self):
+
+        result = self.readByLine("./tmp")
+        listCol = []
+        for i in range(0, len(result)):
+            listCol.append(map(lambda x: x.strip("'"), result[i][1:].split(']')[0].split(', ')))  # my formatter for ./tmp
+
+        print "Number of events: ",
+        print len(listCol)
+        c = ComSubstr()
+        uf = UF(len(listCol))
+        for i in range(len(listCol)):
+            for j in range(i + 1, len(listCol)):
+                # if c.comSubstring(listCol[i], listCol[j]) != 0:
+                #     print c.comSubstring(listCol[i], listCol[j])
+                # print "vs "
+                # print min(len(listCol[i]), len(listCol[j]))
+                if (c.comSubstring(listCol[i], listCol[j]) > min(len(listCol[i]), len(listCol[j])) / 2):
+                    # print c.comSubstring(listCol[i], listCol[j])
+                    uf.union(i, j)
+
+        print "How many classes we have: ",
+        print (uf.count())
+
+        '''
+        Write classification result to file.
+        '''
+        r = uf.details()
+        with open(CALSSIFY_DETAIL, "w") as f:
+            for c in r:
+                for id in c:
+                    f.write(str(listCol[id]) + "\n")
+                f.write("==========" + "\n")
+            f.close()
+
+
+
 if __name__ == "__main__":
     recurlist = recurList()
     # recurlist.getListAll()
@@ -339,16 +397,28 @@ if __name__ == "__main__":
     # print (result.values())
     # print (len(result))
     # recurlist.writeResult(result, "./out/recurList_result_id.txt")
+    #
+    # r = recurlist.shrinkResult()
+    # print r
+    # print len(r)
+    #
+    # with open("./tmp", "w") as f:
+    #     for i in r:
+    #         f.write(str(i) + "\n")
+    #     f.close()
+    # recurlist.convertFromID(r)   #./out/tmp.out
 
-    r = recurlist.shrinkResult()
-    print r
-    print len(r)
+    recurlist.classify()
 
-    with open("./tmp", "w") as f:
-        for i in r:
-            f.write(str(i) + "\n")
-        f.close()
-    recurlist.convertFromID(r)
+    # db = DButil()
+    # db.conToDB()
+    # result = db.executeCmd("select * from LogTemplateBase")
+    # print result
+    # print len(result)
+    #
+    # db.closeCon()
+
+
 
 
     elapsed = (time.clock() - start)
