@@ -373,13 +373,13 @@ class recurList(object):
         '''
         Write classification result to file.
         '''
-        r = uf.details()
-        with open(CALSSIFY_DETAIL, "w") as f:
-            for c in r:
-                for id in c:
-                    f.write(str(listCol[id]) + "\n")
-                f.write("==========" + "\n")
-            f.close()
+        # r = uf.details()
+        # with open(CALSSIFY_DETAIL, "w") as f:
+        #     for c in r:
+        #         for id in c:
+        #             f.write(str(listCol[id]) + "\n")
+        #         f.write("==========" + "\n")
+        #     f.close()
 
 
 
@@ -408,7 +408,7 @@ if __name__ == "__main__":
     #     f.close()
     # recurlist.convertFromID(r)   #./out/tmp.out
 
-    recurlist.classify()
+    # recurlist.classify()
 
     # db = DButil()
     # db.conToDB()
@@ -417,6 +417,42 @@ if __name__ == "__main__":
     # print len(result)
     #
     # db.closeCon()
+
+
+    eventsRaw = recurlist.readByLine("./events.dat")
+    events = []
+    i = 0
+    for l in eventsRaw:
+        a = [str(i)]
+        a.extend(l[1:].split("]")[0].split(" "))
+        events.append(a[:])
+        i += 1
+    # print events
+
+    matEvents = []
+    for i in range(1634):
+        matEvents.append([0] * 711)
+
+    for key in events:
+        for l in key[1:]:
+
+            matEvents[int(key[0])][int(l)] += 1
+            # if int(key[0]) == 57:
+            #     print l
+            #     print matEvents[int(key[0])][int(l)]
+    print matEvents[58]
+    num = 0
+    with open("./eventsforkmeans.dat", "w") as f:
+        for key in matEvents:
+            f.write(str(num) + " ")
+            num += 1
+            for i, l in enumerate(key):
+                f.write(str(l))
+                if i != len(key) - 1:
+                    f.write(" ")
+            f.write("\n")
+        f.close()
+
 
 
 
